@@ -27,16 +27,16 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="annettejing.github.io/Blog.html">Blog</a>
+            <a class="nav-link" href="{{ site.url }}/Blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="annettejing.github.io/Research.html">Research</a>
+            <a class="nav-link" href="{{ site.url }}/Research.html">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="annettejing.github.io/About.html">About</a>
+            <a class="nav-link" href="{{ site.url }}/About.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="annettejing.github.io/Contact.html">Contact</a>
+            <a class="nav-link" href="AnnetteJing.github.io/_layouts/Contact.html">Contact</a>
           </li>   
         </ul>
       </div>  
@@ -44,23 +44,14 @@
     <br>
     <br>
     
-    Test abc
-    <div class="container">
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    Test
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-
-  
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
