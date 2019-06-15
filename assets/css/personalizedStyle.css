@@ -18,3 +18,36 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #E7E7E7;
+  color: #2D2D2D;
+  padding: 12px 20px;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  color: #ffffff;
+  background-color: #2D2D2D;
+  border: 1px solid #2D2D2D;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
