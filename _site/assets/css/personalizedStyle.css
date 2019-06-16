@@ -38,6 +38,7 @@ input[type=submit] {
   border: 1px solid #bfbfbf;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 input[type=submit]:hover {
@@ -48,6 +49,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: transparent;
   padding: 20px;
+  margin-top: 20px;
 }
