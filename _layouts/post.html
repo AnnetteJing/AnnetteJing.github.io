@@ -43,14 +43,12 @@
     <br>
 
     <h1>Latest Posts</h1>
-	<ul>
-	  {% for post in site.posts %}
-	  	<div class="box">
-	  		<a href="{{ post.url }}">{{ post.title }}</a>
-	  		<p>{{ post.content | stript.html | truncatewords: 30 }}</p>
-	  	</div>
-	  {% endfor %}
-	</ul>
+	{% for post in site.posts %}
+		<div class="box">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<p>{{ post.content | stript.html | truncatewords: 30 }}</p>
+		</div>
+	{% endfor %}
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
