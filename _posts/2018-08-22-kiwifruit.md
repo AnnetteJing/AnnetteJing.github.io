@@ -1,4 +1,5 @@
 ---
+title: Kiwi
 layout: singlePost
 author: ted
 ---
