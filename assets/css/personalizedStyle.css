@@ -82,7 +82,7 @@ input[type=submit]:hover {
 }
 
 .box:hover {
-  color: #C1E2F0;
+  background-color: #C1E2F0;
 }
 
 a {
