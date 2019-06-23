@@ -19,6 +19,25 @@ li a:hover {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -59,6 +78,7 @@ input[type=submit]:hover {
   padding: 20px;
   border: 2px solid transparent;
   background-color: #f1f1f1;
+  width: 100%;
 }
 
 a {

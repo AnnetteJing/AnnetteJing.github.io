@@ -45,12 +45,12 @@
     <h1>Latest Posts</h1>
 		{% for post in site.posts %}
 			{% if post.categories contains 'blog' %}
-				<a href="{{ post.url }}">
-					<div class="box">
+
+					<div class="box" onclick="location.href='{{ post.url }}';">
 						<h2>{{ post.title }}</h2>
 						<p>{{ post.content | stript.html | truncatewords: 30 }}</p>
 					</div>
-				</a>
+
 			{% endif %}
 		{% endfor %}
 
