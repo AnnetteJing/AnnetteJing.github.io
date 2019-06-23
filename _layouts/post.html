@@ -21,7 +21,7 @@
       <a class="navbar-brand" href="https://annettejing.github.io">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
-      </button
+      </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -42,17 +42,15 @@
     <br>
     <br>
 
-    <h1>Latest Posts</h1>
-		{% for post in site.posts %}
-			{% if post.categories contains 'blog' %}
-
-					<div class="box" onclick="location.href='{{ post.url }}';">
-						<h2>{{ post.title }}</h2>
-						<p>{{ post.content | stript.html | truncatewords: 30 }}</p>
-					</div>
-
-			{% endif %}
-		{% endfor %}
+    <h1>Blog</h1>
+  	{% for post in site.posts %}
+      {% if post.categories contains 'blog' %}
+    		<div class="box" onclick="location.href='{{ post.url }}';">
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.content | stript.html | truncatewords: 30 }}</p>
+        </div>
+      {% endif %}
+  	{% endfor %}
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
