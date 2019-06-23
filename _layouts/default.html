@@ -30,7 +30,7 @@
             <a class="nav-link" href="{{ site.url }}/Blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ site.url }}/Research.html">Research</a>
+            <a class="nav-link" href="{{ site.url }}/Projects.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ site.url }}/About.html">About</a>
@@ -53,15 +53,9 @@
           <img src="{{site.logo | relative_url}}" style="top:20px; bottom:40px" alt="Logo" />
         {% endif %}
         <br>
+        <br>
 
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">Link to my GitHub profile</a></p>
-        {% endif %}
       </header>
 
       <section>
