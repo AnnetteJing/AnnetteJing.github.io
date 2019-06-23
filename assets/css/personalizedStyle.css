@@ -13,11 +13,28 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
   background-color: #555;
   color: white;
 }
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    color: #555;
+}
+
+@fa-github: #b3b3b3;
+@fa-linkedin: #b3b3b3;
+@fa-facebook: #b3b3b3;
+
 
 input[type=text], select, textarea {
   width: 100%;

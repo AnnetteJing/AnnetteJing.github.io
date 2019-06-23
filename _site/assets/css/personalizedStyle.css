@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 270px;
+  width: 340px;
   background-color: #f1f1f1;
 }
 
@@ -13,29 +13,25 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
   background-color: #555;
   color: white;
 }
 
-a {
-  text-decoration: none;
-  color: #333;
+
+
+.linkedin {
+  background: #007bb5;
+  color: white;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #333;
+.github {
+  background: #55ACEE;
+  color: white;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #333;
-}
-
-a:active {
-  text-decoration: none;
+.facebook {
+  background: #3B5998;
   color: blue;
 }
 
@@ -78,6 +74,14 @@ input[type=submit]:hover {
   padding: 20px;
   border: 2px solid transparent;
   background-color: #f1f1f1;
+  width: 100%;
+}
+
+.box:hover {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid transparent;
+  background-color: #AEAEAE;
   width: 100%;
 }
 
