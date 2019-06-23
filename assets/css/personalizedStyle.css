@@ -81,6 +81,10 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+.box:hover {
+  color: #C1E2F0;
+}
+
 a {
   text-decoration: none;
   color: #333;
