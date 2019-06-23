@@ -30,6 +30,9 @@ li a:hover {
   color: #555;
 }
 
+@fa-github: #b3b3b3;
+@fa-linkedin-square: #b3b3b3;
+@fa-facebook-square: #b3b3b3;
 
 
 input[type=text], select, textarea {
