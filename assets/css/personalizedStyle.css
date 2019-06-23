@@ -1,3 +1,8 @@
+ul {
+margin-top: -10px;
+padding: 0;
+}
+
 ul.navbar-nav {
   list-style-type: none;
   margin: 0;
