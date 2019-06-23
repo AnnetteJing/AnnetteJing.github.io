@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-[Link to pdf resume](AnnetteJing.github.io/assets/AJing_Resume.pdf).
+[Link to pdf](AnnetteJing.github.io/assets/AJing_Resume.pdf).
 
 ### Education
 **Stanford University** <br>
@@ -68,3 +68,8 @@ layout: default
 - Identified the correlation between tumor suppressor gene DKK1 expression and the TET2 gene, a known breast cancer inhibitor, and proposed possible causal channels based on experimental evidence.
 
 
+### Skills and Extracurricular Activities
+- Experience with C/C++, C#, Java, Python, Stata, R, Matlab, and \LATEX
+- Native speaker of Mandarin Chinese, fluent in English (TOEFL 114/120: R30/L28/S28/W28)
+- Atona Case Competition Semifinalist (Nationwide Top 10)
+- Student Ambassador of NTU (2015 - 2018)
