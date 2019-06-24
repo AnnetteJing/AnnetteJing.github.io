@@ -32,6 +32,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Nothing More](https://youtu.be/NAVEoc6NUKg)          | Hard rock, alt rock          | No         |
 | [Panic! at the Disco](https://youtu.be/7qFF2v8VsaA)   | Pop rock, synth-pop          | No         |
 | [Parkway Drive](https://youtu.be/QmtRMoMWUKE)         | Metalcore, heavy metal       | No         |
+| [Queen](https://youtu.be/hFDcoX7s6rE)                 | Hard rock, glam rock         | No         |
 | [Rammstein](https://youtu.be/NeQM1c-XCDc)             | Hard rock, industrial metal  | No         |
 | [Shinedown](https://youtu.be/OoHGZFyMCHU)             | Hard rock, alt metal         | No         |
 | [Sonata Arctica](https://youtu.be/ehvmYAXXUWs)        | Power metal, symphonic metal | Yes        |
