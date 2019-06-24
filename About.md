@@ -50,21 +50,21 @@ layout: default
 ### Research Experience
 **Institute of Statistical Science, Academia Sinica** <br>
 *Part-time Research Assistant (Aug 2018 - Present)*
-- Supervisor: [Dr. Hsin-Wen Chang](http://www.stat.sinica.edu.tw/personinfo/?sysid=5013948)
+Supervisor: [Dr. Hsin-Wen Chang](http://www.stat.sinica.edu.tw/personinfo/?sysid=5013948)
 - Helped to prove theorems and lemmas in the working paper “An Improved Integral-typed Statistic for Testing Crossing Survival Functions.”
 
 * * *
 
 **Department of Economics, National Taiwan University** <br>
 *Double Machine Learning for Threshold Models (Feb 2018 - Apr 2019)*
-- Supervisor: [Prof. Jau-er Chen](https://jauerblog.wordpress.com/about/)
+Supervisor: [Prof. Jau-er Chen](https://jauerblog.wordpress.com/about/)
 - Investigated the use of the double machine learning (DML) parameter estimation method (Chernozhukov et al., 2018) in partially linear models with a known number of thresholds present.
 
 * * *
 
 **Genomics Research Center, Academia Sinica** <br>
 *Cellular Effects of DNA Demethylation Enzyme TET2 Knockdown (Aug 2012 - Jan 2014)*
-- Supervisor: [Dr. Li-Jung Juan](http://www.genomics.sinica.edu.tw/index.php/en/juan-li-jung)
+Supervisor: [Dr. Li-Jung Juan](http://www.genomics.sinica.edu.tw/index.php/en/juan-li-jung)
 - Identified the correlation between tumor suppressor gene DKK1 expression and the TET2 gene, a known breast cancer inhibitor, and proposed possible causal channels based on experimental evidence.
 
 
