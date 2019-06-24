@@ -1,8 +1,7 @@
 ---
-layout: default
+title: About Me
+layout: singlePost
 ---
-
-# About Me
 
 [Link to pdf](AnnetteJing.github.io/assets/AJing_Resume.pdf).
 
