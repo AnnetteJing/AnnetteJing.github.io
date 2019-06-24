@@ -1,5 +1,5 @@
 ---
-title: My Non-work-related Interests
+title: Non-work-related Interests
 layout: singlePost
 ---
 
@@ -14,6 +14,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Adam Lambert](https://youtu.be/aB5wmLTrwSs)          | Pop, pop rock, dance         | No         |
 | [Alice Cooper](https://youtu.be/Qq4j1LtCdww)          | Hard rock, shock rock        | No         |
 | [Alter Bridge](https://youtu.be/8ELpzmNeS4M)          | Hard rock, alt metal         | Yes        |
+| [Animenz](https://youtu.be/sEQf5lcnj_o)               | Anime pianist                | No         |
 | [Avenged Sevenfold](https://youtu.be/KVjBCT2Lc94)     | Heavy metal, hard rock       | Yes        |
 | [Blue Stahli](https://youtu.be/WeeivC7ZtHk)           | Electronic rock              | No         |
 | [Caravan Palace](https://youtu.be/UbQgXeY_zi4)        | Electronic, jazz             | No         |
@@ -46,17 +47,11 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 
 
-## ::Media::
-
-### List of Shows I Like
+## ::Favorite Shows::
 
 
 
-### List of YouTubers I Like
 
-| YouTuber                                              | Genre                        |
-|:------------------------------------------------------|:-----------------------------|
-| [Animenz](https://youtu.be/sEQf5lcnj_o)               | Anime pianist                |
 
 
 

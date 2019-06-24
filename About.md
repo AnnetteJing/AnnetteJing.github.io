@@ -5,7 +5,7 @@ layout: singlePost
 
 [Link to pdf](AnnetteJing.github.io/assets/AJing_Resume.pdf).
 
-### Education
+## ::Education::
 **Stanford University** <br>
 *PhD in Statistics (Incoming Sep 2019)*
 - Recipient of the EDGE Doctoral Fellowship
@@ -26,7 +26,7 @@ layout: singlePost
 - GPA: 4.3/4.3
 
 
-### Work Experience
+## ::Work Experience::
 **Morgan Stanley & Co.** <br>
 *Investment Banking Summer Analyst (June 2017 - Aug 2017)*
 - Worked on an international financial institution’s reverse merger deal.
@@ -46,7 +46,7 @@ layout: singlePost
 - Promoted the social networking site Tumblr and analyzed data using multi-channel social analytics tools.
 
 
-### Research Experience
+## ::Research Experience::
 **Institute of Statistical Science, Academia Sinica** <br>
 *Part-time Research Assistant (Aug 2018 - Present)* <br>
 Supervisor: [Dr. Hsin-Wen Chang](http://www.stat.sinica.edu.tw/personinfo/?sysid=5013948)
@@ -67,7 +67,7 @@ Supervisor: [Dr. Li-Jung Juan](http://www.genomics.sinica.edu.tw/index.php/en/ju
 - Identified the correlation between tumor suppressor gene DKK1 expression and the TET2 gene, a known breast cancer inhibitor, and proposed possible causal channels based on experimental evidence.
 
 
-### Skills and Extracurricular Activities
+## ::Skills and Extracurricular Activities::
 - Experience with C/C++, C#, Java, Python, Stata, R, Matlab, and LaTeX
 - Native speaker of Mandarin Chinese, fluent in English (TOEFL 114/120: R30/L28/S28/W28)
 - Atona Case Competition Semifinalist (Nationwide Top 10)
