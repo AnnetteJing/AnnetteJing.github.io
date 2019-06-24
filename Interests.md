@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: singlePost
 ---
 
-# Non-work-related Interests
+# My Non-work-related Interests
 
-## Music
+This page is a compilation of my non-work-related interests, browse at your own risk!
+
+## ::Music::
 
 ### List of Artists I Like
 
@@ -45,14 +47,22 @@ layout: default
 
 
 
+## ::Media::
 
-## List of Shows I Like
+### List of Shows I Like
 
 
 
-## List of YouTubers I Like
+### List of YouTubers I Like
 
 | YouTuber                                              | Genre                        |
 |:------------------------------------------------------|:-----------------------------|
 | [Animenz](https://youtu.be/sEQf5lcnj_o)               | Anime pianist                |
 
+
+
+## ::Travel::
+
+
+![TravelMap](assets/img/TravelMap.png)
+Made with [mapchart.net](https://mapchart.net/world.html)
