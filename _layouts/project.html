@@ -43,14 +43,16 @@
     <br>
 
     <h1>Current Projects</h1>
-  	{% for post in site.posts %}
+  	<hr>
+    {% for post in site.posts %}
       {% if post.categories contains 'project' %}
-    		<div class="box" onclick="location.href='{{ post.url }}';">
+        <div class="box" onclick="location.href='{{ post.url }}';">
           <h2>{{ post.title }}</h2>
           <p>{{ post.content | stript.html | truncatewords: 30 }}</p>
         </div>
+        <hr>
       {% endif %}
-  	{% endfor %}
+    {% endfor %}
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
