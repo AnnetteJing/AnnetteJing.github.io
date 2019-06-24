@@ -1,8 +1,7 @@
 ---
+title: My Non-work-related Interests
 layout: singlePost
 ---
-
-# My Non-work-related Interests
 
 This page is a compilation of my non-work-related interests, browse at your own risk!
 
@@ -63,6 +62,21 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 ## ::Travel::
 
+| Country / Region                        | Type of Stay            |
+|:----------------------------------------|:------------------------|
+| Taiwan                                  | Lived here              |
+| United Kingdom                          | Lived here              |
+| Belgium                                 | Visited                 |
+| China                                   | Visited                 |
+| France                                  | Visited                 |
+| Hong Kong                               | Visited                 |
+| Japan                                   | Visited                 |
+| The Netherlands                         | Visited                 |
+| Norway                                  | Visited                 |
+| The Philippines                         | Visited                 |
+| Singapore                               | Visited                 |
+| South Korea                             | Visited                 |
+| United States                           | Visited                 |
 
 ![TravelMap](assets/img/TravelMap.png)
 Made with [mapchart.net](https://mapchart.net/world.html)
