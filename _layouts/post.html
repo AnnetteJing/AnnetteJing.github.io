@@ -48,6 +48,7 @@
       {% if post.categories contains 'blog' %}
     		<div class="box" onclick="location.href='{{ post.url }}';">
           <h2>{{ post.title }}</h2>
+          <h6>{{ post.date | date: '%B %d, %Y' }}</h6>
           <p>{{ post.content | stript.html | truncatewords: 30 }}</p>
         </div>
         <hr>
