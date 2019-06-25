@@ -12,7 +12,7 @@ There are two purposes of this post:
 2. ~~Type everything down before I forget it all~~
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
-- $$\mathbf{(V, H)}$$ is a **quadratic space** if <br>
+- __$$(V, H)$$__ is a __quadratic space__ if <br>
 $$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$ 
 - Symmetric bilinear form $$\mathbf{H}$$ on $$V$$ is **non-degenerate** if <br>
 $$L_H: V \to V^* $$ defined such that $$L_H(x) = H(x, \cdot) \ \forall x \in V$$ is an isomorphism <br>
