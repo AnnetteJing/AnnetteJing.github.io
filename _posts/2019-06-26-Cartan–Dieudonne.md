@@ -12,19 +12,26 @@ There are two purposes of this post:
 2. ~~Type down everything before I forget it all~~
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
-* $$(V, H)$$ is a quadratic space if ..
+- $$(V, H)$$ is a quadratic space if <br>
 $$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$ 
-* $$T: (V, H_V) \to (W, H_W)$$ is an isometry if ..
-$$T$$ is a linear bijection that preserves the structure of quadratic spaces, i.e.
-$$
-\begin{equation}
-	H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V
-\end{equation}
-$$
+- $$T: (V, H_V) \to (W, H_W)$$ is an isometry if <br>
+$$T$$ is a linear bijection that preserves the structure of quadratic spaces, 
+i.e. $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$
+- 
 
 
 
 ### Statement of the Theorem
 
 Let $$(V, H)$$ be a nondegenerate quadratic space of dimension $$n$$. Then, every $$\sigma \in \mathcal{O}(V)$$ that is not the identity can be expressed as a product of $$n$$ reflections. 
+
+
+This is a proof by induction, and the core idea is to prove the inductive step holds for the following three cases (which are mutually exclusive and collectively exhaustive): 
+- **Case 1:** $$\exists$$ anisotropic $$x \in V\ \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
+- **Case 2:** $$\exists$$ anisotropic $$x \in V\ \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
+- **Case 3:** $$\forall x \in V\ \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+
+
+
+
 

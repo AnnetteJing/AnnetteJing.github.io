@@ -5,7 +5,7 @@ layout: singlePost
 
 [Link to pdf](AnnetteJing.github.io/assets/AJing_Resume.pdf).
 
-## :: Education ::
+### :: Education ::
 **Stanford University** <br>
 *PhD in Statistics (Incoming Sep 2019)*
 - Recipient of the EDGE Doctoral Fellowship
@@ -27,7 +27,7 @@ layout: singlePost
 
 <br>
 
-## :: Work Experience ::
+### :: Work Experience ::
 **Morgan Stanley & Co.** <br>
 *Investment Banking Summer Analyst (June 2017 - Aug 2017)*
 - Worked on an international financial institution’s reverse merger deal.
@@ -48,7 +48,7 @@ layout: singlePost
 
 <br>
 
-## :: Research Experience ::
+### :: Research Experience ::
 **Institute of Statistical Science, Academia Sinica** <br>
 *Part-time Research Assistant (Aug 2018 - Present)* <br>
 Supervisor: [Dr. Hsin-Wen Chang](http://www.stat.sinica.edu.tw/personinfo/?sysid=5013948)
