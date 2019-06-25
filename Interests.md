@@ -5,7 +5,7 @@ layout: singlePost
 
 This page is a compilation of my non-work-related interests, browse at your own risk!
 
-## ::Music::
+## :: Music ::
 
 ### List of Artists I Like
 
@@ -56,7 +56,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 <br>
 
-## ::Favorite Shows::
+## :: Shows ::
 
 | Show                                                  | Genre                        | Type       |
 |:------------------------------------------------------|:-----------------------------|:-----------|
@@ -67,7 +67,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 <br>
 
-## ::Travel::
+## :: Travel ::
 
 | Country / Region                        | Type of Stay            |
 |:----------------------------------------|:------------------------|
