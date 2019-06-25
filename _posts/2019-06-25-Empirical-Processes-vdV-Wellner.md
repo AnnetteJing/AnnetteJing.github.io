@@ -7,17 +7,17 @@ tags: [weak convergence, empirical processes, notes, A.W. van der Vaart, J.A. We
 
 I will be linking my study notes of [Weak Convergence and Empirical Processes: With Applications to Statistics](https://link.springer.com/book/10.1007/978-1-4757-2545-2) by [Prof. Aad van der Vaart](http://www.math.leidenuniv.nl/~avdvaart/) and [Prof. Jon Wellner](https://www.stat.washington.edu/jaw/) here. 
 
-## 1: Stochastic Convergence
+### 1: Stochastic Convergence
 
 
 * * *
 
-## 2: Empirical Processes
+### 2: Empirical Processes
 
 
 
 * * *
 
-## 3: Statistical Applications
+### 3: Statistical Applications
 
 
