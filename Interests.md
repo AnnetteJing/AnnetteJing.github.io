@@ -42,19 +42,30 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 ### Concert Log
 
+| Artist                                  | Date                    |
+|:----------------------------------------|:------------------------|
+|                                         |                         |
 
 
 ### Musical Log
 
+| Musical                                 | Date                    |
+|:----------------------------------------|:------------------------|
+|                                         |                         |
 
+
+<br>
 
 ## ::Favorite Shows::
 
+| Show                                                  | Genre                        | Type       |
+|:------------------------------------------------------|:-----------------------------|:-----------|
+| Attack on Titan (Shingeki no Kyojin)                  | Action, adventure            | Anime      |
 
 
 
 
-
+<br>
 
 ## ::Travel::
 

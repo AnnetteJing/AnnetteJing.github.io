@@ -25,6 +25,7 @@ layout: singlePost
 *The General Course (Study Abroad Program) — Mathematics*
 - GPA: 4.3/4.3
 
+<br>
 
 ## ::Work Experience::
 **Morgan Stanley & Co.** <br>
@@ -45,6 +46,7 @@ layout: singlePost
 *Student Marketer (Aug 2015 - Jan 2016)*
 - Promoted the social networking site Tumblr and analyzed data using multi-channel social analytics tools.
 
+<br>
 
 ## ::Research Experience::
 **Institute of Statistical Science, Academia Sinica** <br>
@@ -66,6 +68,7 @@ Supervisor: [Prof. Jau-er Chen](https://jauerblog.wordpress.com/about/)
 Supervisor: [Dr. Li-Jung Juan](http://www.genomics.sinica.edu.tw/index.php/en/juan-li-jung)
 - Identified the correlation between tumor suppressor gene DKK1 expression and the TET2 gene, a known breast cancer inhibitor, and proposed possible causal channels based on experimental evidence.
 
+<br>
 
 ## ::Skills and Extracurricular Activities::
 - Experience with C/C++, C#, Java, Python, Stata, R, Matlab, and LaTeX
