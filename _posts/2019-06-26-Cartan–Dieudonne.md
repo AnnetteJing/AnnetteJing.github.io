@@ -43,7 +43,7 @@ We begin by proving a preliminary result that can help us prove a lemma used in 
 ##### Lemma 1
 
 $$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, then 
-1. $$W = W^\perp$$
+1. \(W = W^\perp\). 
 2. If $$\sigma \in \mathcal{O}(V)$$ and $$\sigma\vert_W = I_W$$, then $$det(\sigma) = 1_F$$.
 
 ###### _Proof of Lemma 1:_
