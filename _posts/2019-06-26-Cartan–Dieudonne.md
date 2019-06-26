@@ -25,7 +25,7 @@ i.e. $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$
 
 
 
-### Statement of the Theorem
+### Statement of the Cartan–Dieudonné Theorem
 
 Let $$(V, H)$$ be a nondegenerate quadratic space of dimension $$n$$. Then, every $$\sigma \in \mathcal{O}(V)$$ that is not the identity can be expressed as a product of at most $$n$$ reflections. 
 
@@ -42,11 +42,18 @@ We begin by proving a preliminary result that can help us prove a lemma used in 
 
 ##### Lemma 1
 
-$$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, then 
-1. \(W = W^\perp\). 
-2. If $$\sigma \in \mathcal{O}(V)$$ and $$\sigma\vert_W = I_W$$, then $$det(\sigma) = 1_F$$.
+$$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, then (i) $$W = W^\perp$$; and (ii) if $$\sigma \in \mathcal{O}(V)$$ and $$\sigma\vert_W = I_W$$, we have $$det(\sigma) = 1_F$$.
 
 ###### _Proof of Lemma 1:_
+
+**Part (i):**
+
+Given $$V$$ is hyperbolic, we have $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$ since $$W$$ is maximal totally isotropic. 
+Since $$H\vert_W = H_0^W$$, we have $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By Proposition 4.3 of Clark, $$dim(W^\perp) = dim(V) - dim(W) = 2m - m = m = dim(W)$$. Hence, $$W = W^\perp$$. 
+
+**Part (ii):**
+
+By Theorem 6.2 of Clark, there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$.  
 
 
 * * *
