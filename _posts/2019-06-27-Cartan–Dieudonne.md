@@ -15,7 +15,13 @@ Before delving into the proof, we need several definitions and (not necessarily 
 - $$(V, H)$$ is a **quadratic space** if <br>
 $$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$ 
 - Symmetric bilinear form $$H$$ on $$V$$ is **non-degenerate** if <br>
-$$L_H: V \to V^* $$ defined such that $$L_H(x) = H(x, \cdot) \ \forall x \in V$$ is an isomorphism <br>
+$$L_H: V \to V^* $$, defined as 
+$$
+\begin{equation*}
+	L_H(x) = H(x, \cdot) \ \forall x \in V \text{,}
+\end{equation*}
+$$
+is an isomorphism <br>
 Subspace $$W$$ of $$V$$ is **non-degenerate** if <br>
 $$H\vert_W$$, the restriction of $$H$$ to $$W$$, is non-degenerate
 - $$T: (V, H_V) \to (W, H_W)$$ is an **isometry** if <br>
@@ -78,7 +84,7 @@ Hence, $$W = W^\perp$$.
 
 ###### Part (ii):
 
-According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark:), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
+According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark:), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta := \{\beta_1, ..., \beta_m\}$$, $$\beta' := \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
 By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, then for every $$w \in W$$ we have 
 
 $$
@@ -90,7 +96,7 @@ $$
 
 where the last equality holds because $$\sigma$$ acts as the identity on $$W$$. This implies $$\sigma(y) - y \in W^\perp = W$$. 
 
-Thus, for each $$y \in W'$$ there exists some $$w_y \in W$$ such that $$\sigma(y) = w_y + y$$. To keep notations simple, we denote $$w_{\beta_i'}$$ with $$w_i$$ and let $$M$$ be the $$m \times m$$ matrix whose $$i^{th}$$ column is the coordinate vector of $$w_i$$ with respect to $$\beta$$. The matrix representation of $$\sigma$$ with respect to $$\gamma$$ can be written as follows:
+Thus, for each $$y \in W'$$ there exists some $$w_y \in W$$ such that $$\sigma(y) = w_y + y$$. To keep notations simple, we denote $$w_{\beta_i'}$$ with $$w_i$$ and let $$M$$ be the $$m \times m$$ matrix whose $$i^{th}$$ column is the coordinate vector of $$w_i$$ with respect to $$\beta$$. The matrix representation of $$\sigma$$ with respect to $$\gamma$$ is 
 
 $$
 \begin{align*}
@@ -114,9 +120,13 @@ $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \
 
 ###### If $$n = 1$$:
 
-By the [result on P. 20 of Clark](#result-on-p.-20-of-clark:), 
+In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vectors are non-zero and $$det(\sigma) = \pm 1_F$$ by the [result on P. 20 of Clark](#result-on-p.-20-of-clark:), we have that for every anisotropic $$x \in V$$, $$[\sigma(x)]_x = \pm 1_F$$. This implies $$\sigma(x) = \pm x$$. 
 
+We cannot have $$\sigma(x) = x$$ since it contradicts the assumption $$\sigma(x) - x = 0_V$$. 
 
+However, if $$\sigma(x) = -x$$, $$Q(\sigma(x) - x) = Q(-2_F x) = 4_F Q(x) \neq 0_F$$, contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Note that $$4_F \neq 0_F$$ because $$char(F) \neq 2$$ and $$F$$ is an integral domain. 
+
+###### If $$n = 2$$:
 
 
 
