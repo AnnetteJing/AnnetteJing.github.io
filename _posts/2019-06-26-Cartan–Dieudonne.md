@@ -38,7 +38,7 @@ This is a proof by induction, and the core idea is to prove that the inductive s
 
 * * *
 
-We begin by proving a preliminary result that can help us prove a lemma used in the inductive step for case 3.
+We begin by proving a preliminary result that can help us prove a [lemma](#lemma-2) used in the inductive step for case 3.
 
 ##### Lemma 1
 
@@ -55,7 +55,7 @@ Since $$H\vert_W = H_0^W$$, we have $$H(x, w) = 0_F \ \forall x, w \in W$$, whic
 
 ###### Part (ii):
 
-According to Theorem 6.2 of Clark, there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma \coloneq \beta \cup \beta'$$ is a basis for $$V$$.  
+According to Theorem 6.2 of Clark, there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
 By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, and for every $$w \in W$$, we have 
 
 $$
