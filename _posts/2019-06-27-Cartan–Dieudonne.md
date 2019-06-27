@@ -24,6 +24,21 @@ i.e. $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$
 - 
 
 
+###### Theorem 6.2 of Clark: 
+
+$$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, then <br>
+(i) exists totally isotropic subspace $$W'$$ of $$V$$ with basis $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ such that $$W \cap W' = \{0_V\}$$ and $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$; <br>
+(ii) $$W + W' \equiv span\{\beta, \beta'\} \cong m \mathbb{H}$$.
+
+
+
+###### Result on P. 20 of Clark: 
+
+$$V$$ non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathbb{O}(V)$$. 
+
+
+
+
 
 ### Statement of the Cartan–Dieudonné Theorem
 
@@ -32,9 +47,9 @@ Let $$(V, H)$$ be a nondegenerate quadratic space of dimension $$n$$. Then, ever
 * * *
 
 This is a proof by induction, and the core idea is to prove that the inductive step holds for the following three cases (which are mutually exclusive and collectively exhaustive): 
-- **Case 1:** $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
-- **Case 2:** $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
-- **Case 3:** $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+- **Case 1:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
+- **Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
+- **Case 3:**  $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
 
 * * *
 
@@ -51,12 +66,20 @@ $$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, the
 ###### Part (i):
 
 Given $$V$$ is hyperbolic, we have $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$ since $$W$$ is maximal totally isotropic. 
-Since $$H\vert_W = H_0^W$$, we have $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By Proposition 4.3 of Clark, $$dim(W^\perp) = dim(V) - dim(W) = 2m - m = m = dim(W)$$. Hence, $$W = W^\perp$$. 
+Since $$H\vert_W = H_0^W$$, we have $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By Proposition 4.3 of Clark, 
+
+$$
+\begin{equation*}
+	dim(W^\perp) = dim(V) - dim(W) = 2m - m = m = dim(W)
+\end{equation*}
+$$
+
+Hence, $$W = W^\perp$$. 
 
 ###### Part (ii):
 
-According to Theorem 6.2 of Clark, there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
-By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, and for every $$w \in W$$, we have 
+According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark:), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
+By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, then for every $$w \in W$$ we have 
 
 $$
 \begin{align*}
@@ -89,9 +112,9 @@ $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \
 
 ##### _Proof of Lemma 2:_
 
+###### If $$n = 1$$:
 
-
-
+By the [result on P. 20 of Clark](#result-on-p.-20-of-clark:), 
 
 
 
@@ -101,6 +124,6 @@ $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \
 
 
 
-###### _Proof of Cartan–Dieudonné:_
+### _Proof of Cartan–Dieudonné:_
 
 
