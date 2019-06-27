@@ -42,28 +42,35 @@ We begin by proving a preliminary result that can help us prove a lemma used in 
 
 ##### Lemma 1
 
-$$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, then (i) $$W = W^\perp$$; and (ii) if $$\sigma \in \mathcal{O}(V)$$ and $$\sigma\vert_W = I_W$$, we have $$det(\sigma) = 1_F$$.
+$$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, then <br>
+(i) $$W = W^\perp$$; and <br>
+(ii) if $$\sigma \in \mathcal{O}(V)$$ and $$\sigma\vert_W = I_W$$, we have $$det(\sigma) = 1_F$$.
 
-###### _Proof of Lemma 1:_
+##### _Proof of Lemma 1:_
 
 **Part (i):**
+
 Given $$V$$ is hyperbolic, we have $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$ since $$W$$ is maximal totally isotropic. 
 Since $$H\vert_W = H_0^W$$, we have $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By Proposition 4.3 of Clark, $$dim(W^\perp) = dim(V) - dim(W) = 2m - m = m = dim(W)$$. Hence, $$W = W^\perp$$. 
 
 **Part (ii):**
+
 According to Theorem 6.2 of Clark, there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma \vcentcolon= \beta \cup \beta'$$ is a basis for $$V$$.  
 By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. For every $$y \in W'$$ and $$w \in W$$, 
-$$H(w, \sigma(y) - y) = H(w, \sigma(y)) - H(w, y) = H(w, \sigma(y)) - H(\sigma(w), \sigma(y)) = 0_V$$, where the last equality holds because $\sigma$ acts as the identity on $$W$$. This implies $$\sigma(y) - y \in W^\perp = W$$. 
-Hence, for each $$y \in W'$$ there exists some $$w_y \in W$$ such that $$\sigma(y) = w_y + y$$. To keep notations simple, we denote $$w_{\beta_i'}$$ with $$w_i$$ and let $$M$$ be the $$m \times m$$ matrix whose $$i^{th}$$ column is the coordinate vector of $$w_i$$ with respect to $$\beta$$. The matrix representation of $$\sigma$$ with respect to $$\gamma$$ can be written as follows:
+$$H(w, \sigma(y) - y) = H(w, \sigma(y)) - H(w, y) = H(w, \sigma(y)) - H(\sigma(w), \sigma(y)) = 0_V$$, where the last equality holds because $$\sigma$$ acts as the identity on $$W$$. This implies $$\sigma(y) - y \in W^\perp = W$$. 
+
+Thus, for each $$y \in W'$$ there exists some $$w_y \in W$$ such that $$\sigma(y) = w_y + y$$. To keep notations simple, we denote $$w_{\beta_i'}$$ with $$w_i$$ and let $$M$$ be the $$m \times m$$ matrix whose $$i^{th}$$ column is the coordinate vector of $$w_i$$ with respect to $$\beta$$. The matrix representation of $$\sigma$$ with respect to $$\gamma$$ can be written as follows:
+
 $$
 \begin{align*}
-	[\sigma]_\gamma^\gamma &= \Big([\beta_1]_\gamma, ..., [\beta_m]_\gamma, [w_1 + \beta_1']_\gamma, ..., [w_m + \beta_m']_\gamma \Big)
+	[\sigma]_\gamma^\gamma &= \Big([\beta_1]_\gamma, ..., [\beta_m]_\gamma, [w_1 + \beta_1']_\gamma, ..., [w_m + \beta_m']_\gamma \Big) \\
 	&= \begin{pmatrix} 
 		I_m & M \\
-		\mathbf{0}_{m \times m} & 
+		\mathbf{0}_{m \times m} & I_m
 	   \end{pmatrix} \text{.}
 \end{align*}
 $$
+
 It follows $$det(\sigma) = det(I_m) det(I_m) = 1_F$$. 
 
 * * *
@@ -72,7 +79,7 @@ It follows $$det(\sigma) = det(I_m) det(I_m) = 1_F$$.
 
 $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \mathcal{O}(V)$$ satisfies Case 3, then $$n \geq 4$$, is even, and $$det(\sigma) = 1_F$$. 
 
-###### _Proof of Lemma 2:_
+##### _Proof of Lemma 2:_
 
 
 
