@@ -2,7 +2,6 @@
 title: About Me
 layout: singlePost
 ---
-
 [Link to pdf](AnnetteJing.github.io/assets/AJing_Resume.pdf).
 
 ### :: Education ::
