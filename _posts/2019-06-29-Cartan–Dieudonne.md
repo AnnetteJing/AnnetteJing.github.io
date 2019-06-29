@@ -95,7 +95,7 @@ Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implie
 $$
 \begin{align*}
 	dim(W^\perp) &= dim(V) - dim(W) \\
-	&= 2m - m = m = dim(W)
+	&= 2m - m = m = dim(W) \text{.}
 \end{align*}
 $$
 
@@ -144,25 +144,39 @@ In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vec
 We cannot have $$\sigma(x) = x$$ since it contradicts the assumption $$\sigma(x) - x = 0_V$$. 
 
 However, if $$\sigma(x) = -x$$, 
+
 $$
 \begin{equation*}
 	Q(\sigma(x) - x) = Q(-2_F x) = 4_F Q(x) \neq 0_F \text{,}
 \end{equation*}
 $$
+
 contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Note that $$4_F \neq 0_F$$ because $$char(F) \neq 2$$ and $$F$$ is an integral domain. 
 
 ###### If $$n = 2$$:
 
-Fix any anisotropic $$x \in V$$. By assumption $$\sigma(x) \neq ax \ \forall a \in F$$, because $$\sigma(x) - x \neq 0_V$$ and if $$\sigma(x) = ax$$ for some $$a \in F \setminus \{1_F\}$$, $$Q(sigma(x) - x) = (a - 1_F)^2Q(x) \neq 0_F$$, contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Given $$n = 2$$, this implies $$\beta := \{x, \sigma(x)\}$$ forms a basis for $$V$$. 
+Fix any anisotropic $$x \in V$$. By assumption $$\sigma(x) \neq ax \ \forall a \in F$$, because $$\sigma(x) - x \neq 0_V$$ and if $$\sigma(x) = ax$$ for some $$a \in F \setminus \{1_F\}$$, 
+
+$$
+\begin{equation*}
+	Q(\sigma(x) - x) = (a - 1_F)^2Q(x) \neq 0_F \text{,}
+\end{equation*}
+$$
+
+contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Given $$n = 2$$, this implies $$\beta := \{x, \sigma(x)\}$$ forms a basis for $$V$$. 
 
 Observe that $$H(x, \sigma(x)) = Q(x)$$, because by the assumptions that $$\sigma(x) - x$$ is isotropic and $$\sigma$$ is an isometry (implies $$Q(\sigma(x)) = Q(x)$$) we have
+
 $$
 \begin{align*}
 	0_F &= Q(\sigma(x) - x) = Q(\sigma(x)) - 2_F H(\sigma(x), x) + Q(x) \\
 	&= 2_F (Q(x) - H(\sigma(x), x)) \text{.}
 \end{align*}
 $$
+
 The matrix representation of $$H$$ with respect to $$\beta$$ is then
+
+$$
 \begin{equation*}
 	\psi_\beta(H) = 
 	\begin{pmatrix}
@@ -170,6 +184,8 @@ The matrix representation of $$H$$ with respect to $$\beta$$ is then
 		Q(x) & Q(x) \text{,}
 	\end{pmatrix}
 \end{equation*}
+$$
+
 and $$det(\psi_\beta(H)) = 0_F$$. By [proposition 3.1 of Clark](#proposition-3.1-of-clark), $$H$$ is degenerate, which contradicts the premise that $$V$$ is a non-degenerate quadratic space. 
 
 ###### If $$n \geq 3$$:
