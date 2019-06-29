@@ -181,12 +181,13 @@ $$
 	\psi_\beta(H) = 
 	\begin{pmatrix}
 		Q(x) & Q(x) \\
-		Q(x) & Q(x) \text{,}
+		Q(x) & Q(x) 
 	\end{pmatrix}
+	\text{,}
 \end{equation*}
 $$
 
-and $$det(\psi_\beta(H)) = 0_F$$. By [proposition 3.1 of Clark](#proposition-3.1-of-clark), $$H$$ is degenerate, which contradicts the premise that $$V$$ is a non-degenerate quadratic space. 
+and hence $$det(\psi_\beta(H)) = 0_F$$. By [proposition 3.1 of Clark](#proposition-31-of-clark), $$H$$ is degenerate, which contradicts the premise that $$V$$ is a non-degenerate quadratic space. 
 
 ###### If $$n \geq 3$$:
 
