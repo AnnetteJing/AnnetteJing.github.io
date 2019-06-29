@@ -13,8 +13,9 @@ There are two purposes of this post:
 
 Here is a list of notations that will be used:
 - $$V, W$$ denotes vector spaces or subspaces over some field $$F$$.
-- $$[T]_\beta^\gamma$$: matrix representation of linear map $$T: V \to W$$ with respect to bases $$\beta$$ of $$V$$ and $$\gamma$$ of $$W$$.
-- $$\psi_\beta(H)$$: matrix representation of bilinear form $$H: V \times V \to F$$ with respect to basis $$\beta$$
+- $$[T]_\beta^\gamma$$ : matrix representation of linear map $$T: V \to W$$ with respect to bases $$\beta$$ of $$V$$ and $$\gamma$$ of $$W$$.
+- $$\psi_\beta(H)$$ : matrix representation of bilinear form $$H: V \times V \to F$$ with respect to basis $$\beta$$
+- $$H\vert_W$$: the restriction of bilinear form $$H$$ to $$W$$
 
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
@@ -29,7 +30,7 @@ $$
 $$
 is an isomorphism <br>
 Subspace $$W$$ of $$V$$ is **non-degenerate** if <br>
-$$H\vert_W$$, the restriction of $$H$$ to $$W$$, is non-degenerate
+$$H\vert_W$$ is non-degenerate
 
 ##### Proposition 3.1 of Clark
 Let $$\beta$$ be any basis of $$V$$, then $$H$$ is non-degenerate iff $$\psi_\beta(H)$$ is invertible (non-singular).
@@ -40,8 +41,11 @@ i.e. $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$
 - 
 
 
+#### Proposition 4.3 of Clark
 
-
+$$V$$ non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
+(i) $$dim(V) = dim(W) + dim(W^\perp)$$; <br>
+(ii) $$W^{\perp\perp} = W$$. 
 
 ##### Theorem 6.2 of Clark
 
@@ -90,7 +94,7 @@ $$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, the
 ###### Part (i):
 
 Given $$V$$ is hyperbolic and $$W$$ is maximal totally isotropic, we have that $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$. 
-Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By Proposition 4.3 of Clark, 
+Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By [Proposition 4.3 of Clark](#proposition-43-of-clark), 
 
 $$
 \begin{align*}
@@ -139,7 +143,7 @@ $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \
 
 ###### If $$n = 1$$:
 
-In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vectors are non-zero and $$det(\sigma) = \pm 1_F$$ by the [result on P. 20 of Clark](#result-on-p.-20-of-clark:), we have that for every anisotropic $$x \in V$$, $$[\sigma(x)]_x = \pm 1_F$$. This implies $$\sigma(x) = \pm x$$. 
+In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vectors are non-zero and $$det(\sigma) = \pm 1_F$$ by the [result on P. 20 of Clark](#result-on-p20-of-clark:), we have that for every anisotropic $$x \in V$$, $$[\sigma(x)]_x = \pm 1_F$$. This implies $$\sigma(x) = \pm x$$. 
 
 We cannot have $$\sigma(x) = x$$ since it contradicts the assumption $$\sigma(x) - x = 0_V$$. 
 
@@ -187,7 +191,7 @@ $$
 \end{equation*}
 $$
 
-and hence $$det(\psi_\beta(H)) = 0_F$$. By [proposition 3.1 of Clark](#proposition-31-of-clark), $$H$$ is degenerate, which contradicts the premise that $$V$$ is a non-degenerate quadratic space. 
+and hence $$det(\psi_\beta(H)) = 0_F$$. By [Proposition 3.1 of Clark](#proposition-31-of-clark), $$H$$ is degenerate, which contradicts the premise that $$V$$ is a non-degenerate quadratic space. 
 
 ###### If $$n \geq 3$$:
 
