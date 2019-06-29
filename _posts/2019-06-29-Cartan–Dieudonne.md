@@ -12,10 +12,10 @@ There are two purposes of this post:
 2. ~~Type everything down before I forget it all~~
 
 Here is a list of notations that will be used:
-- $$V, W$$ denotes vector spaces or subspaces over some field $$F$$.
+- $$V, W, U$$ denote vector spaces or subspaces over some field $$F$$.
 - $$[T]_\beta^\gamma$$ : matrix representation of linear map $$T: V \to W$$ with respect to bases $$\beta$$ of $$V$$ and $$\gamma$$ of $$W$$.
 - $$\psi_\beta(H)$$ : matrix representation of bilinear form $$H: V \times V \to F$$ with respect to basis $$\beta$$
-- $$H\vert_W$$: the restriction of bilinear form $$H$$ to $$W$$
+- $$H\vert_W$$: restriction of the bilinear form $$H$$ to $$W$$
 
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
@@ -36,9 +36,13 @@ $$H\vert_W$$ is non-degenerate
 Let $$\beta$$ be any basis of $$V$$, then $$H$$ is non-degenerate iff $$\psi_\beta(H)$$ is invertible (non-singular).
 
 - $$T: (V, H_V) \to (W, H_W)$$ is an **isometry** if <br>
-$$T$$ is a linear bijection that preserves the structure of quadratic spaces, 
-i.e. $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$
+$$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$, i.e. $$T$$ preserves the structure of quadratic spaces
 - 
+
+
+#### Exercise 1 on P.10 of Clark
+
+Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$. 
 
 
 #### Proposition 4.3 of Clark
@@ -47,12 +51,12 @@ $$V$$ non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
 (i) $$dim(V) = dim(W) + dim(W^\perp)$$; <br>
 (ii) $$W^{\perp\perp} = W$$. 
 
+
 ##### Theorem 6.2 of Clark
 
-$$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta \equiv \{\beta_1, ..., \beta_m\}$$, then <br>
-(i) exists totally isotropic subspace $$W'$$ of $$V$$ with basis $$\beta' \equiv \{\beta_1', ..., \beta_m'\}$$ such that $$W \cap W' = \{0_V\}$$ and $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$; <br>
+$$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta := \{\beta_1, ..., \beta_m\}$$, then <br>
+(i) exists totally isotropic subspace $$W'$$ of $$V$$ with basis $$\beta' := \{\beta_1', ..., \beta_m'\}$$ such that $$W \cap W' = \{0_V\}$$ and $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$; <br>
 (ii) $$W + W' \equiv span\{\beta, \beta'\} \cong m \mathbb{H}$$.
-
 
 
 ##### Result on P. 20 of Clark
@@ -60,11 +64,14 @@ $$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis 
 $$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathcal{O}(V)$$. 
 
 
+#### Witt Decomposition Theorem
+
+For any $$(V, H)$$, $$\exists ! I(V) \in \mathbb{N} \cup \{0\}$$, anisotropic $$(V', H')$$ such that $$V \cong rad(V) \oplus I(V) \mathbb{H} \oplus V'$$, where the anisotropic quadratic space $$V'$$ is unique up to an isometry class. 
+
 
 
 
 * * *
-
 * * *
 
 
@@ -107,7 +114,7 @@ Hence, $$W = W^\perp$$.
 
 ###### Part (ii):
 
-According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark:), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta := \{\beta_1, ..., \beta_m\}$$, $$\beta' := \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
+According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta := \{\beta_1, ..., \beta_m\}$$, $$\beta' := \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
 By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, then for every $$w \in W$$ we have 
 
 $$
@@ -143,7 +150,7 @@ $$(V, H)$$ is a nondegenerate quadratic space of dimension $$n$$, $$\sigma \in \
 
 ###### If $$n = 1$$:
 
-In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vectors are non-zero and $$det(\sigma) = \pm 1_F$$ by the [result on P. 20 of Clark](#result-on-p20-of-clark:), we have that for every anisotropic $$x \in V$$, $$[\sigma(x)]_x = \pm 1_F$$. This implies $$\sigma(x) = \pm x$$. 
+In this case, $$V$$ can be spanned by any non-zero vector. Given anisotropic vectors are non-zero and $$det(\sigma) = \pm 1_F$$ by the [result on P. 20 of Clark](#result-on-p20-of-clark), we have that for every anisotropic $$x \in V$$, $$[\sigma(x)]_x = \pm 1_F$$. This implies $$\sigma(x) = \pm x$$. 
 
 We cannot have $$\sigma(x) = x$$ since it contradicts the assumption $$\sigma(x) - x = 0_V$$. 
 
@@ -195,6 +202,16 @@ and hence $$det(\psi_\beta(H)) = 0_F$$. By [Proposition 3.1 of Clark](#propositi
 
 ###### If $$n \geq 3$$:
 
+First, we show that $$Q(\sigma(x) - x) = 0_F \ \forall x \in V$$, rather than just for anisotropic vectors. 
+Given $$V$$ is non-degenerate, we have by [Exercise 1 on P.10 of Clark](#exercise-1-on-p10-of-clark) and [Witt Decomposition Theorem](#witt-decomposition-theorem) that 
+
+$$
+\begin{equation*}
+	V = I(V) \mathbb{H} \oplus V' \equiv \bigoplus\limits_{i = 1}^{I(V)} \mathbb{H}_i \oplus V' \text{.}
+\end{equation*}
+$$ 
+
+Take any isotropic $$y \in V \setminus \{0_V\}$$, then $$y$$ must belong into one of the hyperbolic planes. Assume without loss of generality $$y \in \mathbb{H}_1$$ and let $$U := \bigoplus\limits_{i = 2}^{I(V)} \mathbb{H}_i \oplus V'$$, then $$V = \mathbb{H}_1 \oplus U$$. 
 
 
 
