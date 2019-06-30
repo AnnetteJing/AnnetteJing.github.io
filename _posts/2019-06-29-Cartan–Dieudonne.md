@@ -11,11 +11,15 @@ There are two purposes of this post:
 1. Test out using MathJax and Kramdown for my blog
 2. ~~Type everything down before I forget it all~~
 
-Here is a list of notations that will be used:
+Here is a list of notations used:
 - $$V, W, U$$ denote vector spaces or subspaces over some field $$F$$.
 - $$[T]_\beta^\gamma$$ : matrix representation of linear map $$T: V \to W$$ with respect to bases $$\beta$$ of $$V$$ and $$\gamma$$ of $$W$$.
 - $$\psi_\beta(H)$$ : matrix representation of bilinear form $$H: V \times V \to F$$ with respect to basis $$\beta$$
-- $$H\vert_W$$: restriction of the bilinear form $$H$$ to $$W$$
+- $$f\vert_W$$: restriction of function $$f: V \to U$$ to $$W \subseteq V$$
+- $$H\vert_W$$: restriction of bilinear form $$H: V \times V \to F$$ to $$W \subseteq V$$
+- $$T_0^V$$: the zero transformation on $$V$$
+- $$H_0^V$$: the zero bilinear form on $$V$$
+- $$f(V)$$: the range of function $$f:V \to U$$
 
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
@@ -40,12 +44,12 @@ $$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \f
 - 
 
 
-#### Exercise 1 on P.10 of Clark
+##### Exercise 1 on P.10 of Clark
 
 Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$. 
 
 
-#### Proposition 4.3 of Clark
+##### Proposition 4.3 of Clark
 
 $$V$$ non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
 (i) $$dim(V) = dim(W) + dim(W^\perp)$$; <br>
@@ -64,7 +68,7 @@ $$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis 
 $$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathcal{O}(V)$$. 
 
 
-#### Witt Decomposition Theorem
+##### Witt Decomposition Theorem
 
 For any $$(V, H)$$, $$\exists ! I(V) \in \mathbb{N} \cup \{0\}$$, anisotropic $$(V', H')$$ such that $$V \cong rad(V) \oplus I(V) \mathbb{H} \oplus V'$$, where the anisotropic quadratic space $$V'$$ is unique up to an isometry class. 
 
@@ -101,7 +105,7 @@ $$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, the
 ###### Part (i):
 
 Given $$V$$ is hyperbolic and $$W$$ is maximal totally isotropic, we have that $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$. 
-Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subset W^\perp$$. By [Proposition 4.3 of Clark](#proposition-43-of-clark), 
+Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subseteq W^\perp$$. By [Proposition 4.3 of Clark](#proposition-43-of-clark), 
 
 $$
 \begin{align*}
@@ -162,7 +166,7 @@ $$
 \end{equation*}
 $$
 
-contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Note that $$4_F \neq 0_F$$ because $$char(F) \neq 2$$ and $$F$$ is an integral domain. 
+which contradicts the assumption that $$\sigma(x) - x$$ is isotropic. Note that $$4_F \neq 0_F$$ because $$char(F) \neq 2$$ and $$F$$ is an integral domain. 
 
 ###### If $$n = 2$$:
 
@@ -174,7 +178,7 @@ $$
 \end{equation*}
 $$
 
-contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Given $$n = 2$$, this implies $$\beta := \{x, \sigma(x)\}$$ forms a basis for $$V$$. 
+again contradicting the assumption that $$\sigma(x) - x$$ is isotropic. Given $$n = 2$$, this implies $$\beta := \{x, \sigma(x)\}$$ forms a basis for $$V$$. 
 
 Observe that $$H(x, \sigma(x)) = Q(x)$$, because by the assumptions that $$\sigma(x) - x$$ is isotropic and $$\sigma$$ is an isometry (implies $$Q(\sigma(x)) = Q(x)$$) we have
 
@@ -207,12 +211,69 @@ Given $$V$$ is non-degenerate, we have by [Exercise 1 on P.10 of Clark](#exercis
 
 $$
 \begin{equation*}
-	V = I(V) \mathbb{H} \oplus V' \equiv \bigoplus\limits_{i = 1}^{I(V)} \mathbb{H}_i \oplus V' \text{.}
+	V = I(V) \mathbb{H} \oplus V' \equiv \bigoplus\limits_{i = 1}^{I(V)} \mathbb{H}_i \oplus V'
 \end{equation*}
 $$ 
 
-Take any isotropic $$y \in V \setminus \{0_V\}$$, then $$y$$ must belong into one of the hyperbolic planes. Assume without loss of generality $$y \in \mathbb{H}_1$$ and let $$U := \bigoplus\limits_{i = 2}^{I(V)} \mathbb{H}_i \oplus V'$$, then $$V = \mathbb{H}_1 \oplus U$$. 
+for some anisotropic subspace $$V' \subseteq V$$. 
 
+Take any isotropic $$y \in V \setminus \{0_V\}$$, then $$y$$ must belong into one of the hyperbolic planes. Assume without loss of generality that $$y \in \mathbb{H}_1$$ and let $$U := \bigoplus_{i = 2}^{I(V)} \mathbb{H}_i \oplus V'$$, then $$V = \mathbb{H}_1 \oplus U$$. 
+
+Pick an anisotropic vector $$z \in U$$ (which must exist because neither hyperbolic spaces nor anisotropic spaces are totally isotropic). Clearly $$Q(z) \neq 0_F$$ and $$H(y, z) = 0_F$$. 
+Then, for any $$a \in F \setminus \{0_F\}$$, 
+
+$$
+\begin{align*}
+	Q(y + az) &= Q(y) + 2_F a H(y, z) + a^2 Q(z) \\
+	&= a^2 Q(z) \neq 0_F \text{,}
+\end{align*}
+$$
+
+we have that $$y + az$$ is anisotropic. 
+
+It then follows after the assumption that 
+
+$$
+\begin{align*}
+	0_F &= Q(\sigma(y + az) - (y + az)) = Q((\sigma(y) - y) + a(\sigma(z) - z))\\
+	&= Q(\sigma(y) - y) + 2_F a H(\sigma(y) - y, \sigma(z) - z) + a^2 Q(\sigma(z) - z) \\
+	&= Q(\sigma(y) - y) + 2_F a H(\sigma(y) - y, \sigma(z) - z) \text{,}
+\end{align*}
+$$
+
+where the last equality holds because $$z$$ was chosen to be anisotropic. 
+Now set $$a = 1_F$$ then $$a = -1_F$$ and sum the two resulting equations, which gives us
+
+$$
+\begin{equation*}
+	2_F Q(\sigma(y) - y) = 0_F \text{.}
+\end{equation*}
+$$
+
+Since $$y$$ is aribitrarily chosen, we have $$Q(\sigma(y) - y) = 0_F \ \forall y \in V$$. 
+
+
+Next, define $$W := (\sigma - I_V)(V)$$. By the previous result, 
+
+$$
+\begin{equation*}
+	Q\vert_W = T_0^W \text{,}
+\end{equation*}
+$$
+
+which means $$W$$ is totally isotropic and hence $$W \subseteq W^\perp$$. 
+
+To prove $$W^\perp \subseteq W$$ we shall simply show $$W^\perp$$ is totally isotropic, because given $$V$$ is non-degenerate this implies $$W^\perp \subseteq W^{\perp\perp} = W$$ (see [Exercise 1 on P.10 of Clark](#exercise-1-on-p10-of-clark)).
+
+Fix any $$y \in W^\perp$$. For every $$v \in V$$, 
+
+$$
+\begin{align*}
+	H(v, \sigma(y) - y) &= H(\sigma(v), \sigma(y) - y) - H(\sigma(v) - v, \sigma(y) - y) \\
+	&= H(\sigma(v), \sigma(y) - y) \text{  since } Q\vert_W = T_0^W \text{ implies } H\vert_W = H_0^W \\
+	&= 
+\end{align*}
+$$
 
 
 
