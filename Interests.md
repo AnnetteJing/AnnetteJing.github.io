@@ -42,9 +42,27 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 ### Concert Log
 
-| Artist                                  | Date                    |
-|:----------------------------------------|:------------------------|
-|                                         |                         |
+| Artist                                  | Date         | Location   |
+|:----------------------------------------|:-------------|:-----------|
+| Iron Maiden                             | May 27, 2017 | London     |
+| Trivium                                 | Feb 17, 2017 | London     |
+| Green Day                               | Feb 08, 2017 | London     |
+| Avenged Sevenfold                       | Jan 22, 2017 | London     |
+| In Flames                               | Jan 22, 2017 | London     |
+| Avenged Sevenfold                       | Jan 21, 2017 | London     |
+| Disturbed                               | Jan 21, 2017 | London     |
+| Alter Bridge                            | Nov 24, 2016 | London     |
+| Volbeat                                 | Nov 24, 2016 | London     |
+| Gojira                                  | Nov 24, 2016 | London     |
+| Sonata Arctica                          | Oct 15, 2016 | London     |
+| Twilight Force                          | Oct 15, 2016 | London     |
+| Power Quest                             | Oct 15, 2016 | London     |
+| Nightwish                               | Apr 16, 2016 | Taipei     |
+| Hammerfall                              | Oct 17, 2015 | Taipei     |
+| Dir en grey                             | Oct 17, 2015 | Taipei     |
+| Dragonforce                             | Sep 12, 2015 | Taipei     |
+| GYZE                                    | Sep 12, 2015 | Taipei     |
+| Avenged Sevenfold                       | Jan 16, 2015 | Taipei     |
 
 
 ### Musical Log

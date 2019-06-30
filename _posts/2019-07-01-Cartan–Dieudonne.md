@@ -263,7 +263,7 @@ $$
 
 which means $$W$$ is totally isotropic and hence $$W \subseteq W^\perp$$. 
 
-To prove $$W^\perp \subseteq W$$ we shall simply show $$W^\perp$$ is totally isotropic, because given $$V$$ is non-degenerate this implies $$W^\perp \subseteq W^{\perp\perp} = W$$ (see [Exercise 1 on P.10 of Clark](#exercise-1-on-p10-of-clark)).
+To prove $$W^\perp \subseteq W$$ we shall simply show $$W^\perp$$ is totally isotropic, because given $$V$$ is non-degenerate this gives $$W^\perp \subseteq W^{\perp\perp} = W$$ (see [Exercise 1 on P.10 of Clark](#exercise-1-on-p10-of-clark)).
 
 Fix any $$y \in W^\perp$$. For every $$v \in V$$, 
 
