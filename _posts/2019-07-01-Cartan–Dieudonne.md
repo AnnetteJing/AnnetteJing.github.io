@@ -253,7 +253,7 @@ $$
 Since $$y$$ is aribitrarily chosen, we have $$Q(\sigma(y) - y) = 0_F \ \forall y \in V$$. 
 
 
-Next, define $$W := (\sigma - I_V)(V)$$. By the previous result, 
+Now define $$W := (\sigma - I_V)(V)$$. By the previous result, 
 
 $$
 \begin{equation*}

@@ -46,8 +46,10 @@
     <br>
 
     <h2>{{ page.title }}</h2>
+    {% if page.title != "About" and page.title != "Interests" %}
     <h6>{{ page.date | date: '%B %d, %Y' }}</h6>
     <br>
+    {% endif %}
     <div class="container">
       {{ content }}
     </div>
