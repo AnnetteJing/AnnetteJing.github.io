@@ -5,7 +5,7 @@ categories: [blog]
 tags: [Cartan–Dieudonné, quadratic space]
 ---
 
-This blog will be about one of the most covoluted proofs I have encountered during my undergraduate career: the proof of the [Cartan–Dieudonné Theorem](https://en.wikipedia.org/wiki/Cartan–Dieudonné_theorem) for general quadratic spaces. I will be following [Prof. Peter Clark's](http://math.uga.edu/~pete/) proof in his [notes](http://math.uga.edu/~pete/quadraticforms.pdf), but add more details that aren't so obvious to first-time readers. 
+This blog will be about one of the most covoluted proofs I have encountered during my undergraduate career: the proof of the [Cartan–Dieudonné Theorem](https://en.wikipedia.org/wiki/Cartan–Dieudonné_theorem) for general quadratic spaces. I will be following [Prof. Peter Clark's](http://math.uga.edu/~pete/) proof in his [notes](http://math.uga.edu/~pete/quadraticforms.pdf), but add more details that aren't so obvious to first-time readers. A few theorems used are taken from the first chapter of [Algebraic Theory of Quadratic Forms](https://books.google.com.tw/books?id=YvyOLDeOYQgC&pg=PA1&hl=zh-TW&source=gbs_toc_r&cad=4#v=onepage&q&f=false) by [Prof. Tsit Yuen Lam](https://math.berkeley.edu/~lam/). 
 
 There are two purposes of this post:
 1. Test out using MathJax and Kramdown for my blog
@@ -73,6 +73,15 @@ $$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \math
 For any $$(V, H)$$, $$\exists ! I(V) \in \mathbb{N} \cup \{0\}$$, anisotropic $$(V', H')$$ such that $$V \cong rad(V) \oplus I(V) \mathbb{H} \oplus V'$$, where the anisotropic quadratic space $$V'$$ is unique up to an isometry class. 
 
 
+##### Exercise 12 of Lam Ch1
+$$V \cong n \mathbb{H}$$, then exist maximal totally isotropic subspaces $$W, W'$$ of $$V$$ such that $$dim(W) = dim(W') = n$$ and $$V = W + W'$$. 
+
+
+##### Corollary 4.4 of Lam Ch1
+
+$$V$$ non-degenerate, $$W$$ is a maximal totally isotropic subspace of $$V$$, then $$I(V) = dim(W)$$.
+
+(Note: This result can also be found on P. 17 of Clark, but the proof is left as an exercise for the reader.)
 
 
 * * *
@@ -271,13 +280,38 @@ $$
 \begin{align*}
 	H(v, \sigma(y) - y) &= H(\sigma(v), \sigma(y) - y) - H(\sigma(v) - v, \sigma(y) - y) \\
 	&= H(\sigma(v), \sigma(y) - y) \text{  since } Q\vert_W = T_0^W \text{ implies } H\vert_W = H_0^W \\
-	&= 
+	&= H(\sigma(v), \sigma(y)) - H(\sigma(v), y) \\
+	&= H(v, y) - H(\sigma(v), y) \text{  because } \sigma \in \mathcal{O}(V) \\
+	&= H(v - \sigma(v), y) = 0_F \text{  since } v - \sigma(v) \in W \text{ and } y \in W^\perp \text{.}
 \end{align*}
 $$
 
+Therefore, $$\sigma(y) - y \in rad(V)$$ and by [Exercise 1 on P.10 of Clark](#exercise-1-on-p10-of-clark) $$\sigma(y) - y = 0_V$$. This means $$y$$ must be isotropic, otherwise the assumption that $$\sigma(x) - x \neq 0_V$$ for every anisotropic $$x \in V$$ won't hold. 
+Since this is true for any $$y \in W^\perp$$, $$W^\perp$$ is totally isotropic and based on our reasoning above $$W = W^\perp$$. 
 
+It follows immediately after [Proposition 4.3 of Clark](#proposition-43-of-clark) and our previous result that 
 
+$$
+\begin{equation*}
+	n = dim(V) = dim(W) + dim(W^\perp) = 2 dim(W) \text{,}
+\end{equation*}
+$$
 
+which implies $$n$$ is even and $$\geq 4$$. 
+
+Finally, we show $$det(\sigma) = 1_F$$ using [Lemma 1](#lemma-1). 
+Recall that we have shown $$W$$ is totally isotropic and $$\sigma(y) - y = 0_V \ \forall y \in W^\perp$$. 
+The first result coupled with [Corollary 4.4 of Lam Ch1](#-corollary-44-of-lam-ch1) implies that for any anisotropic subspace $$U \subset V$$, 
+
+$$
+\begin{equation*}
+	2 dim(W) \leq 2 I(V) = dim(I(V) \mathbb{H}) < dim(I(V) \mathbb{H} \oplus U) \text{.}
+\end{equation*}
+$$
+
+Since $$dim(V) = 2 dim(W)$$, this means $$V \cong I(V) \mathbb{H}$$ and $$W$$ is maximal totally isotropic by [Exercise 12 of Lam Ch1](#exercise-12-of-lam-ch1). 
+
+By part (i) of [Lemma 1](#lemma-1), $$W = W^\perp$$. Then, our second result becomes $$\sigma(y) - y = 0_V \ \forall y \in W$$, which is equivalent to $$\sigma\vert_W = I_W$$. Thus, by part (ii) of [Lemma 1](#lemma-1) we have $$det(\sigma) = 1_F$$. 
 
 
 * * *
