@@ -74,7 +74,7 @@ For any $$(V, H)$$, $$\exists ! I(V) \in \mathbb{N} \cup \{0\}$$, anisotropic $$
 
 
 ##### Exercise 12 of Lam Ch1
-$$V \cong n \mathbb{H}$$, then exist maximal totally isotropic subspaces $$W, W'$$ of $$V$$ such that $$dim(W) = dim(W') = n$$ and $$V = W + W'$$. 
+$$V \cong n \mathbb{H}$$, then exist maximal totally isotropic subspaces $$W$$ and $$W'$$ of $$V$$ such that $$dim(W) = dim(W') = n$$ and $$V = W + W'$$. 
 
 
 ##### Corollary 4.4 of Lam Ch1
@@ -301,14 +301,15 @@ which implies $$n$$ is even and $$\geq 4$$.
 
 Finally, we show $$det(\sigma) = 1_F$$ using [Lemma 1](#lemma-1). 
 Recall that we have shown $$W$$ is totally isotropic and $$\sigma(y) - y = 0_V \ \forall y \in W^\perp$$. 
-The first result coupled with [Corollary 4.4 of Lam Ch1](#-corollary-44-of-lam-ch1) implies that for any anisotropic subspace $$U \subset V$$, 
+The first result coupled with [Corollary 4.4 of Lam Ch1](#corollary-44-of-lam-ch1) implies that 
 
 $$
 \begin{equation*}
-	2 dim(W) \leq 2 I(V) = dim(I(V) \mathbb{H}) < dim(I(V) \mathbb{H} \oplus U) \text{.}
+	2 dim(W) \leq 2 I(V) = dim(I(V) \mathbb{H}) < dim(I(V) \mathbb{H} \oplus U) \text{,}
 \end{equation*}
 $$
 
+where $$U$$ is an aribitrary anisotropic subspace of $$V$$. 
 Since $$dim(V) = 2 dim(W)$$, this means $$V \cong I(V) \mathbb{H}$$ and $$W$$ is maximal totally isotropic by [Exercise 12 of Lam Ch1](#exercise-12-of-lam-ch1). 
 
 By part (i) of [Lemma 1](#lemma-1), $$W = W^\perp$$. Then, our second result becomes $$\sigma(y) - y = 0_V \ \forall y \in W$$, which is equivalent to $$\sigma\vert_W = I_W$$. Thus, by part (ii) of [Lemma 1](#lemma-1) we have $$det(\sigma) = 1_F$$. 
