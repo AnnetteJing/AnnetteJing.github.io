@@ -37,6 +37,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Shinedown](https://youtu.be/OoHGZFyMCHU)             | Hard rock, alt metal         | No         |
 | [Sonata Arctica](https://youtu.be/ehvmYAXXUWs)        | Power metal, symphonic metal | Yes        |
 | [Tenacious D](https://youtu.be/3b1acvZRvV4)           | Comedy rock, acoustic rock   | No         |
+| [Tim Minchin](https://youtu.be/VGErC6QQdoc)           | Comedy music                 | No         |
 | [Trivium](https://youtu.be/_XD2jKlCiK0)               | Heavy metal, metalcore       | Yes        |
 
 

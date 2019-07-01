@@ -51,14 +51,14 @@ Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$.
 
 ##### Proposition 4.3 of Clark
 
-$$V$$ non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
+$$V$$ is non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
 (i) $$dim(V) = dim(W) + dim(W^\perp)$$; <br>
 (ii) $$W^{\perp\perp} = W$$. 
 
 
 ##### Theorem 6.2 of Clark
 
-$$V$$ non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta := \{\beta_1, ..., \beta_m\}$$, then <br>
+$$V$$ is non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta := \{\beta_1, ..., \beta_m\}$$, then <br>
 (i) exists totally isotropic subspace $$W'$$ of $$V$$ with basis $$\beta' := \{\beta_1', ..., \beta_m'\}$$ such that $$W \cap W' = \{0_V\}$$ and $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$; <br>
 (ii) $$W + W' \equiv span\{\beta, \beta'\} \cong m \mathbb{H}$$.
 
@@ -79,7 +79,7 @@ $$V \cong n \mathbb{H}$$, then exist maximal totally isotropic subspaces $$W$$ a
 
 ##### Corollary 4.4 of Lam Ch1
 
-$$V$$ non-degenerate, $$W$$ is a maximal totally isotropic subspace of $$V$$, then $$I(V) = dim(W)$$.
+$$V$$ is non-degenerate, $$W$$ is a maximal totally isotropic subspace of $$V$$, then $$I(V) = dim(W)$$.
 
 (Note: This result can also be found on P. 17 of Clark, but the proof is left as an exercise for the reader.)
 
@@ -113,8 +113,8 @@ $$V$$ is hyperbolic, $$W$$ is a maximal totally isotropic subspace of $$V$$, the
 
 ###### Part (i):
 
-Given $$V$$ is hyperbolic and $$W$$ is maximal totally isotropic, we have that $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$. 
-Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$, which implies $$W \subseteq W^\perp$$. By [Proposition 4.3 of Clark](#proposition-43-of-clark), 
+Given $$V$$ is hyperbolic and $$W$$ is maximal totally isotropic, we have that $$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$ and $$dim(W) = m$$ by [Exercise 12 and Corollary 4.4 of Lam Ch1](#exercise-12-of-lam-ch1). 
+Since $$H\vert_W = H_0^W$$, $$H(x, w) = 0_F \ \forall x, w \in W$$. This implies $$W \subseteq W^\perp$$. By [Proposition 4.3 of Clark](#proposition-43-of-clark), 
 
 $$
 \begin{align*}
