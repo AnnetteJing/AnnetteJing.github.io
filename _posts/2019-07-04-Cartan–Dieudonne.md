@@ -251,7 +251,7 @@ $$
 $$
 
 where the last equality holds because $$z$$ was chosen to be anisotropic. 
-Now set $$a = 1_F$$ then $$a = -1_F$$ and sum the two resulting equations, which gives us
+We set $$a = 1_F$$ and then $$a = -1_F$$, and sum the two resulting equations, which gives us
 
 $$
 \begin{equation*}
@@ -317,6 +317,23 @@ By part (i) of [Lemma 1](#lemma-1), $$W = W^\perp$$. Then, our second result bec
 
 * * *
 
+We can now finally begin our proof of the main theorem! As mentioned previously, this will be a proof by induction on $$dim(V)$$. 
+
 ### _Proof of Cartan–Dieudonné:_
+
+###### (i) Base case: $$dim(V) = 1$$. 
+
+When $$dim(V) = 1$$, $$V = span\{x\}$$ for some $$x \neq 0_V$$. As in the first part of the proof for [Lemma 2](#lemma-2), $$\sigma(x) = \pm x$$. Since every element in $$span\{x\}$$ are of the form $$ax$$ for some $$a \in F$$, this implies 
+
+$$
+\begin{equation*}
+	\sigma(v) = \pm v \ \forall v \in V \text{,}
+\end{equation*}
+$$
+
+in other words, $$\sigma = I_V$$ or $$\sigma = -I_V$$. Given $$\sigma \neq I_V$$, the latter must hold. It can be easily verfied from its definition that $$\tau_x(ax) = -ax$$ for any $$a \in F$$. Hence, $$\sigma = \tau_x$$. 
+
+
+###### (ii) Induction step: $$dim(V) = n$$, the statement holds for any quadratic space with dimension less than n.
 
 
