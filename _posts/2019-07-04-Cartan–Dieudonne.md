@@ -49,6 +49,11 @@ $$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \f
 Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$. 
 
 
+##### Proposition 4.2 of Clark
+
+$$W$$ is a non-degenerate subspace of $$V$$, then $$V = W \oplus W^\perp$$. 
+
+
 ##### Proposition 4.3 of Clark
 
 $$V$$ is non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
@@ -66,6 +71,11 @@ $$V$$ is non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with bas
 ##### Result on P. 20 of Clark
 
 $$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathcal{O}(V)$$. 
+
+
+##### Witt Cancellation Theorem
+
+$$V_1 \cong V_2$$, $$U_1 \oplus V_1 \cong U_2 \oplus V_2$$, then $$U_1 \cong U_2$$. 
 
 
 ##### Witt Decomposition Theorem
@@ -335,5 +345,46 @@ in other words, $$\sigma = I_V$$ or $$\sigma = -I_V$$. Given $$\sigma \neq I_V$$
 
 
 ###### (ii) Induction step: $$dim(V) = n$$, the statement holds for any quadratic space with dimension less than n.
+
+**Case 1:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
+
+Let $$W = span\{x\}^\perp$$. Notice that $$span\{x\}$$ is non-degenerate by [Proposition 3.1 of Clark](#proposition-31-of-clark) since
+
+$$
+\begin{equation*}
+	\psi_x(H\vert_{span\{x\}}) = Q(x) \neq 0_F \text{.}
+\end{equation*}
+$$
+
+It then follows after [Proposition 4.2 of Clark](#proposition-42-of-clark) that 
+
+$$
+\begin{equation*}
+	V = span\{x\} \oplus W \text{.}
+\end{equation*}
+$$
+
+By assumption $$\sigma$$ is surjective (because it's an isometry) and $$\sigma(x) = x$$, so
+
+$$
+\begin{align*}
+	span\{x\} \oplus W &= V = \sigma(V) \\
+	&= span\{\sigma(x)\} \oplus \sigma(W) \\
+	&= span\{x\} \oplus \sigma(W) \text{,}
+\end{align*}
+$$
+
+and by [Witt Cancellation Theorem](#witt-cancellation-theorem) $$W = \sigma(W)$$. 
+
+
+
+**Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
+
+
+
+
+
+**Case 3:**  $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+
 
 
