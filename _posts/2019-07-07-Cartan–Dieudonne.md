@@ -395,7 +395,7 @@ $$
 \end{equation*}
 $$
 
-By induction hypothesis, there exist reflections $$\tau_1, ..., \tau_m$$ through anisotropic vectors $$x_1, ..., x_m \in W$$ where $$m \leq n - 1$$ such that 
+By the induction hypothesis, there exist reflections $$\tau_1, ..., \tau_m$$ through anisotropic vectors $$x_1, ..., x_m \in W$$ where $$m \leq n - 1$$ such that 
 
 $$
 \begin{equation*}
@@ -422,7 +422,7 @@ By assumption $$\tau_{\sigma(x) - x}$$ is defined. We only have to show $$\tau_{
 
 $$
 \begin{equation*}
-	tau_{\sigma(x) - x} \circ \sigma = \tau_1 \circ ... \circ \tau_m \text{.}
+	\tau_{\sigma(x) - x} \circ \sigma = \tau_1 \circ ... \circ \tau_m \text{.}
 \end{equation*}
 $$
 
