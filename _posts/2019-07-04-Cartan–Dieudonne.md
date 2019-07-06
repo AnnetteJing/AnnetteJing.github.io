@@ -364,7 +364,16 @@ $$
 \end{equation*}
 $$
 
-By assumption $$\sigma$$ is surjective (because it's an isometry) and $$\sigma(x) = x$$, so
+First remember that an isometry preserves strucures of quadratic spaces it maps from and to, which include direct sums and orthogonal complements, meaning that if $$g$$ is an isometry the following holds:
+
+$$
+\begin{align*}
+	g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2) \text{,} \\
+	g(U^\perp) &= g(U)^\perp \text{.}
+\end{align*}
+$$
+
+Then, because $$\sigma$$ is surjective and $$\sigma(x) = x$$ by assumption, we have
 
 $$
 \begin{align*}
