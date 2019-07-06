@@ -43,6 +43,16 @@ Let $$\beta$$ be any basis of $$V$$, then $$H$$ is non-degenerate iff $$\psi_\be
 $$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$, i.e. $$T$$ preserves the structure of quadratic spaces
 - 
 
+##### Result regarding isometries
+If $$g$$ is an isometry, then the following holds:
+
+$$
+\begin{align*}
+	g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2) \text{,} \\
+	g(U^\perp) &= g(U)^\perp \text{.}
+\end{align*}
+$$
+
 
 ##### Exercise 1 on P.10 of Clark
 
@@ -364,16 +374,7 @@ $$
 \end{equation*}
 $$
 
-First remember that an isometry preserves strucures of quadratic spaces it maps from and to, which include direct sums and orthogonal complements, meaning that if $$g$$ is an isometry the following holds:
-
-$$
-\begin{align*}
-	g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2) \text{,} \\
-	g(U^\perp) &= g(U)^\perp \text{.}
-\end{align*}
-$$
-
-Then, because $$\sigma$$ is surjective and $$\sigma(x) = x$$ by assumption, we have
+Remember that an isometry preserves strucures of quadratic spaces it maps from and to, which include direct sums (see [result regarding isometries](#result-regarding-isometries)). Then, because $$\sigma$$ is surjective and $$\sigma(x) = x$$ by assumption, we have
 
 $$
 \begin{align*}
@@ -386,11 +387,46 @@ $$
 and by [Witt Cancellation Theorem](#witt-cancellation-theorem) $$W = \sigma(W)$$. 
 
 
-
 **Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
 
+By assumption $$\tau_{\sigma(x) - x}$$ is defined. We only have to show $$\tau_{\sigma(x) - x}(\sigma(x)) = x$$, then $$\tau_{\sigma(x) - x} \circ \sigma$$ satisfies Case 1 and there exist reflections $$\tau_1, ..., \tau_{n - 1}$$ such that 
 
+$$
+\begin{equation*}
+	tau_{\sigma(x) - x} \circ \sigma = \tau_1 \circ ... \circ \tau_{n - 1} \text{.}
+\end{equation*}
+$$
 
+Because $$\tau_{\sigma(x) - x} = \tau_{\sigma(x) - x}^{-1}$$, we have 
+
+$$
+\begin{align*}
+	\sigma(x) &= \tau_{\sigma(x) - x}(x) \\
+	&= tau_{\sigma(x) - x} \circ \tau_1 \circ ... \circ \tau_{n - 1} \text{,}
+\end{align*}
+$$
+
+$$\sigma$$ is a product of $$n$$ reflections.
+
+Now we return to show $$\tau_{\sigma(x) - x}(\sigma(x)) = x$$. 
+
+$$
+\begin{align*}
+	2_F H(\sigma(x), \sigma(x) - x) &= 2_F [Q(\sigma(x)) - H(\sigma(x), x)] \\
+	&= [Q(\sigma(x)) - H(\sigma(x), x)] + [Q(x) - H(\sigma(x), x)] \text{  since } \sigma \in \mathcal{O}(V) \\
+	&= H(\sigma(x), \sigma(x) - x) + H(x - \sigma(x), x) \\
+	&= Q(\sigma(x) - x) \text{.}
+\end{align*}
+$$
+
+Plugging this into the definition of a reflection gives
+
+$$
+\begin{align*}
+	\tau_{\sigma(x) - x}(\sigma(x)) &= \sigma(x) - \frac{2_F H(\sigma(x), \sigma(x) - x)}{Q(\sigma(x) - x)} (\sigma(x) - x) \\
+	&= \sigma(x) - (\sigma(x) - x) = x \text{.}
+\end{align*}
+$$
 
 
 **Case 3:**  $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
