@@ -385,15 +385,44 @@ $$
 $$
 
 and by [Witt Cancellation Theorem](#witt-cancellation-theorem) $$W = \sigma(W)$$. 
+Given $$V$$ is finite-dimensional, this ensues that $$\sigma\vert_W \in \mathcal{O}(W)$$, i.e. $$\sigma\vert_W$$ is still an isometry. 
+
+$$\sigma\vert_W \neq I_W$$, otherwise $$\sigma = I_V$$ as we already have by assumption that 
+
+$$
+\begin{equation*}
+	\sigma(ax) = ax \ \forall x \in span\{x\} \text{.}
+\end{equation*}
+$$
+
+By induction hypothesis, there exist reflections $$\tau_1, ..., \tau_m$$ through anisotropic vectors $$x_1, ..., x_m \in W$$ where $$m \leq n - 1$$ such that 
+
+$$
+\begin{equation*}
+	\sigma\vert_W = \tau_1 \circ ... \circ \tau_m \text{.}
+\end{equation*}
+$$
+
+It is obvious from the definition of a reflection through some anisotropic vector $$v$$ that $$\tau_v(z) = z$$ for any $$z \in span\{v\}^\perp$$. 
+Since $$span\{x\} = W^\perp$$ (direct result of [Proposition 4.3 of Clark](#proposition-43-of-clark)), a repeated application of the aforementioned result gives 
+
+$$
+\begin{equation*}
+	\sigma(ax) = ax = \tau_1 \circ ... \circ \tau_m(ax)
+\end{equation*}
+$$
+
+for every $$ax \in span\{x\}$$. 
+Hence, $$\sigma = \tau_1 \circ ... \circ \tau_m$$ for some $$m \leq n - 1$$. 
 
 
 **Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
 
-By assumption $$\tau_{\sigma(x) - x}$$ is defined. We only have to show $$\tau_{\sigma(x) - x}(\sigma(x)) = x$$, then $$\tau_{\sigma(x) - x} \circ \sigma$$ satisfies Case 1 and there exist reflections $$\tau_1, ..., \tau_{n - 1}$$ such that 
+By assumption $$\tau_{\sigma(x) - x}$$ is defined. We only have to show $$\tau_{\sigma(x) - x}(\sigma(x)) = x$$, then $$\tau_{\sigma(x) - x} \circ \sigma$$ satisfies Case 1 and there exist reflections $$\tau_1, ..., \tau_m$$ where $$m \leq n - 1$$ such that 
 
 $$
 \begin{equation*}
-	tau_{\sigma(x) - x} \circ \sigma = \tau_1 \circ ... \circ \tau_{n - 1} \text{.}
+	tau_{\sigma(x) - x} \circ \sigma = \tau_1 \circ ... \circ \tau_m \text{.}
 \end{equation*}
 $$
 
@@ -402,11 +431,11 @@ Because $$\tau_{\sigma(x) - x} = \tau_{\sigma(x) - x}^{-1}$$, we have
 $$
 \begin{align*}
 	\sigma(x) &= \tau_{\sigma(x) - x}(x) \\
-	&= tau_{\sigma(x) - x} \circ \tau_1 \circ ... \circ \tau_{n - 1} \text{,}
+	&= tau_{\sigma(x) - x} \circ \tau_1 \circ ... \circ \tau_m \text{,}
 \end{align*}
 $$
 
-$$\sigma$$ is a product of $$n$$ reflections.
+$$\sigma$$ is a product of at most $$n$$ reflections.
 
 Now we return to show $$\tau_{\sigma(x) - x}(\sigma(x)) = x$$. 
 
