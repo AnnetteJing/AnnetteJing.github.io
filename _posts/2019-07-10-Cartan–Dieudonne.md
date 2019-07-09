@@ -383,7 +383,7 @@ When $$dim(V) = 1$$, $$V = span\{x\}$$ for some $$x \neq 0_V$$. As in the first 
 
 $$
 \begin{equation*}
-	\sigma(v) = \pm v \ \forall v \in V \text{,}
+	\sigma(v) = \pm v \quad \forall v \in V \text{,}
 \end{equation*}
 $$
 
@@ -427,7 +427,7 @@ $$\sigma\vert_W \neq I_W$$, otherwise $$\sigma = I_V$$ as we already have by ass
 
 $$
 \begin{equation*}
-	\sigma(ax) = ax \ \forall x \in span\{x\} \text{.}
+	\sigma(ax) = ax \quad \forall x \in span\{x\} \text{.}
 \end{equation*}
 $$
 
