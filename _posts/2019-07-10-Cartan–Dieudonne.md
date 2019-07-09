@@ -75,8 +75,8 @@ Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$.
 
 ##### Result regarding isometries
 If $$g$$ is an isometry, then the following holds: <br>
-(i) $$g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2)$$; <br>
-(ii) $$g(U^\perp) &= g(U)^\perp$$. 
+(i) $$g(V_1 \oplus V_2) = g(V_1) \oplus g(V_2)$$; <br>
+(ii) $$g(U^\perp) = g(U)^\perp$$. 
 
 
 ##### Proposition 4.2 of Clark
