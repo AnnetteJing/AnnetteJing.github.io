@@ -136,8 +136,7 @@ $$V \cong n \mathbb{H}$$, then exist maximal totally isotropic subspaces $$W$$ a
 
 ##### Corollary 4.4 of Lam Ch1
 
-$$V$$ is non-degenerate, $$W$$ is a maximal totally isotropic subspace of $$V$$, then $$I(V) = dim(W)$$.
-
+$$V$$ is non-degenerate, $$W$$ is a maximal totally isotropic subspace of $$V$$, then $$I(V) = dim(W)$$. <br>
 (Note: This result can also be found on P. 17 of Clark, but the proof is left as an exercise for the reader.)
 
 
