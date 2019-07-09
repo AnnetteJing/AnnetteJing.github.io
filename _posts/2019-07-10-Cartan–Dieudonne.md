@@ -20,11 +20,12 @@ Here is a list of notations used:
 - $$T_0^V$$: the zero transformation on $$V$$
 - $$H_0^V$$: the zero bilinear form on $$V$$
 - $$f(V)$$: the range of function $$f:V \to U$$
+- $$det(f)$$: the determinant of any matrix representation of function $$f:V \to U$$ (this is well-defined because all representations are congruent to one another and hence have the same determinant)
 
 
 Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
 - $$(V, H)$$ is a **quadratic space** if <br>
-$$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$ 
+$$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$.
 - Symmetric bilinear form $$H$$ on $$V$$ is **non-degenerate** if <br>
 $$L_H: V \to V^* $$, defined as 
 $$
@@ -32,16 +33,45 @@ $$
 	L_H(x) = H(x, \cdot) \ \forall x \in V \text{,}
 \end{equation*}
 $$
-is an isomorphism <br>
+is an isomorphism. <br>
 Subspace $$W$$ of $$V$$ is **non-degenerate** if <br>
-$$H\vert_W$$ is non-degenerate
+$$H\vert_W$$ is non-degenerate. <br>
+So when we say a quadratic space $$V$$ is non-degenerate, it means the bilinear form $$H$$ it's equipped with is non-degenerate. 
 
 ##### Proposition 3.1 of Clark
 Let $$\beta$$ be any basis of $$V$$, then $$H$$ is non-degenerate iff $$\psi_\beta(H)$$ is invertible (non-singular).
 
 - $$T: (V, H_V) \to (W, H_W)$$ is an **isometry** if <br>
-$$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$, i.e. $$T$$ preserves the structure of quadratic spaces
-- 
+$$T$$ is a linear bijection such that $$H_W(T(v_1), T(v_2)) = H_V(v_1, v_2) \ \forall v_1, v_2 \in V$$, i.e. $$T$$ preserves the structure of quadratic spaces.
+- $$(V, H_V)$$ is isometric to $$(W, H_W)$$, $$V \cong W$$, if <br>
+$$\exists$$ isometry $$T: (V, H_V) \to (W, H_W)$$. <br>
+It can be shown easily that "$$\cong$$" is an equivalent relation.  
+- **Orthogonal Group** of $$(V, H)$$, $$\mathcal{O}(V)$$ <br>
+$$\mathcal{O}(V) := \{T \in GL(V) | T \text{ is an isometry}\}$$ where $$GL(V)$$ denotes the general linear group of vector space $$V$$. 
+
+
+##### Result on P. 20 of Clark
+
+$$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathcal{O}(V)$$. 
+
+
+- $$S_1, S_2 \subseteq V$$ are **orthogonal** is <br>
+$$H(x_1, x_2) = 0_F \ \forall x_1 \in S_1, \ x_2 \in S_2$$.
+- **Orthogonal Complement** of $$S \subseteq V$$, $$S^\perp$$ <br>
+$$S^\perp := \{x \in V | H(x, s) = 0_F \ \forall s \in S\}$$.
+- **Radical** of $$S \subseteq V$$, $$rad(S)$$ <br>
+$$rad(S) := S \cap S^\perp$$ (so $$rad(V) = V^\perp$$).
+- **Orthogonal Direct Sum** of $$(V, H_V)$$ and $$(W, H_W)$$, $$(V \oplus W, H_{V \oplus W})$$ <br>
+$$V \oplus W := V \times W$$, the Cartesian product of $$V$$ and $$W$$ <br>
+$$H_{V \oplus W}((v_1, w_1), (v_2, w_2)) := H_V(v_1, v_2) + H_W(w_1, w_2)$$. <br>
+By recognizing each element $$v \in V$$ as $$(v, 0_W)$$ and $$w \in W$$ as $$(0_V, w)$$, $$V \oplus W$$ is simply the direct sum of vector spaces $$V$$ and $$W$$ with the additional condition that $$V \perp W$$. <br>
+For the sake of simplicity, we denote a repeated direct sum of the same space, $$\bigoplus_{i = 1}^m V$$, as $$m V$$ following on. 
+
+
+##### Exercise 1 on P.10 of Clark
+
+Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$. 
+
 
 ##### Result regarding isometries
 If $$g$$ is an isometry, then the following holds:
@@ -52,11 +82,6 @@ $$
 	g(U^\perp) &= g(U)^\perp \text{.}
 \end{align*}
 $$
-
-
-##### Exercise 1 on P.10 of Clark
-
-Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$. 
 
 
 ##### Proposition 4.2 of Clark
@@ -71,16 +96,28 @@ $$V$$ is non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
 (ii) $$W^{\perp\perp} = W$$. 
 
 
+- $$x \in V \setminus \{0_V\}$$ **[an]isotropic** if <br>
+$$Q(x) \equiv H(x, x) = 0_F$$ [$$\neq 0_F$$] <br>
+$$(V, H)$$ is **[an]isotropic** if <br>
+(i) $$V$$ is non-degenerate; <br>
+(ii) $$\exists$$ [$$\nexists$$] isotropic $$x \in V \setminus \{0_V\}$$.
+- $$W \subseteq V$$ is **totally isotropic** if <br>
+$$\forall x \in W \setminus \{0_V\}$$ are isotropic. Other equivalent definitions include: <br>
+(a) $$Q\vert_W = T_0^W$$; (b) $$H\vert_W = H_0^W$$; (c) $$W \subseteq W^\perp$$. 
+- **Hyperbolic Plane**, $$\mathbb{H}$$ <br>
+$$\mathbb{H} := (F^2, H)$$ where $$H(x, y) = 2_F^{-1}(x_1 y_2 + x_2 y_1) \ \forall x \equiv (x_1, x_2), y \equiv (y_1, y_2) \in F^2$$, or equivalently, $$Q(x) = x_1 x_2 \ \forall x \equiv (x_1, x_2) \in F^2$$. 
+- $$(V, H)$$ is a **hyperbolic space** if <br>
+$$V \cong m \mathbb{H}$$ for some $$m \in \mathbb{N}$$. 
+- **Reflection** through an anisotropic vector $$v \in V$$, $$\tau_v$$ <br>
+$$\tau_v(x) := x - 2_F \frac{H(x, v)}{Q(v)} v \ \forall x \in V$$. <br>
+It isn't hard to show $$\tau_v \in \mathcal{O}(V)$$, $$\tau_v^2 = I_V$$, and $$det(\tau_v) = -1_F$$.  
+
+
 ##### Theorem 6.2 of Clark
 
 $$V$$ is non-degenerate, $$W$$ is a totally isotropic subspace of $$V$$ with basis $$\beta := \{\beta_1, ..., \beta_m\}$$, then <br>
 (i) exists totally isotropic subspace $$W'$$ of $$V$$ with basis $$\beta' := \{\beta_1', ..., \beta_m'\}$$ such that $$W \cap W' = \{0_V\}$$ and $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$; <br>
 (ii) $$W + W' \equiv span\{\beta, \beta'\} \cong m \mathbb{H}$$.
-
-
-##### Result on P. 20 of Clark
-
-$$V$$ is non-degenerate, then $$det(\sigma) = \pm 1_F \ \forall \sigma \in \mathcal{O}(V)$$. 
 
 
 ##### Witt Cancellation Theorem
@@ -91,6 +128,11 @@ $$V_1 \cong V_2$$, $$U_1 \oplus V_1 \cong U_2 \oplus V_2$$, then $$U_1 \cong U_2
 ##### Witt Decomposition Theorem
 
 For any $$(V, H)$$, $$\exists ! I(V) \in \mathbb{N} \cup \{0\}$$, anisotropic $$(V', H')$$ such that $$V \cong rad(V) \oplus I(V) \mathbb{H} \oplus V'$$, where the anisotropic quadratic space $$V'$$ is unique up to an isometry class. 
+
+
+- Subspace $$W$$ of $$V$$ is **maximal totally isotropic** if <br>
+(i) $$W$$ is totally isotropic; <br>
+(ii) Any subspace $$U$$ of $$V$$ that contains $$W$$ is not totally isotropic.
 
 
 ##### Exercise 12 of Lam Ch1
@@ -117,7 +159,7 @@ Let $$(V, H)$$ be a nondegenerate quadratic space of dimension $$n$$. Then, ever
 This is a proof by induction, and the core idea is to prove that the inductive step holds for the following three cases (which are mutually exclusive and collectively exhaustive): 
 - **Case 1:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
 - **Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
-- **Case 3:**  $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+- **Case 3:**  $$\forall$$ anisotropic $$x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
 
 * * *
 
@@ -426,12 +468,12 @@ $$
 \end{equation*}
 $$
 
-Because $$\tau_{\sigma(x) - x} = \tau_{\sigma(x) - x}^{-1}$$, we have 
+Because the inverses of reflections are themselves, we have 
 
 $$
 \begin{align*}
 	\sigma(x) &= \tau_{\sigma(x) - x}(x) \\
-	&= tau_{\sigma(x) - x} \circ \tau_1 \circ ... \circ \tau_m \text{,}
+	&= \tau_{\sigma(x) - x} \circ \tau_1 \circ ... \circ \tau_m \text{,}
 \end{align*}
 $$
 
@@ -458,7 +500,37 @@ $$
 $$
 
 
-**Case 3:**  $$\forall x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+**Case 3:**  $$\forall$$ anisotropic $$x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic
+
+By [lemma 2](#lemma-2), we must have $$n \geq 4$$, is even, and $$det(\sigma) = 1_F$$ in this case. 
+Furthermore, the contrapositive of the lemma implies that if an isometry's determinant is not $$1_F$$, then it must satisfy the conditions of either Case 1 or 2. 
+
+Pick any reflection $$\tau$$ on $$V$$, and define $$\sigma' := \tau \circ \sigma \in \mathcal{O}(V)$$. 
+
+$$
+\begin{equation*}
+	det(\sigma') = det(\tau) det(\sigma) = -1_F \cdot 1_F = -1_F \text{,}
+\end{equation*}
+$$
+
+so $$\sigma'$$ satisfies the conditions of Case 1 or 2 and there exists $$m \leq n$$, reflections $$\tau_1, ..., \tau_m$$ such that $$\sigma' = \tau_1 \circ ... \circ \tau_m$$. 
+Again because the inverses of reflections are themselves, 
+
+$$
+\begin{equation*}
+	\sigma = \tau \circ \tau_1 \circ ... \circ \tau_m \text{.}
+\end{equation*}
+$$
+
+Since $$m < n$$ we're done. Indeed, if $$m = n$$ we have by the fact $$n$$ is even that
+
+$$
+\begin{equation*}
+	det(\sigma) = (-1_F)^{n + 1} = -1_F \text{,}
+\end{equation*}
+$$
+
+but this contradicts the result $$det(\sigma) = 1_F$$ we have from [lemma 2](#lemma-2). 
 
 
-
+And thus we have completed the proof! 
