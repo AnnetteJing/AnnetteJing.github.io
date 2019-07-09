@@ -23,7 +23,7 @@ Here is a list of notations used:
 - $$det(f)$$: the determinant of any matrix representation of function $$f:V \to U$$ (this is well-defined because all representations are congruent to one another and hence have the same determinant)
 
 
-Before delving into the proof, we need several definitions and (not necessarily elementary) results: 
+Before delving into the proof, we need quite many definitions and (not necessarily elementary) results, most of which can be found in [Prof. Clark's notes](http://math.uga.edu/~pete/quadraticforms.pdf): 
 - $$(V, H)$$ is a **quadratic space** if <br>
 $$(V, F)$$ is a finite-dimensional vector space, $$char(F) \neq 2$$, and $$H$$ is a symmetric bilinear form on $$V$$ with the corresponding quadratic form $$Q$$.
 - Symmetric bilinear form $$H$$ on $$V$$ is **non-degenerate** if <br>
@@ -74,14 +74,9 @@ Subspace $$W$$ of $$V$$ is non-degenerate iff $$rad(W) = \{0_V\}$$.
 
 
 ##### Result regarding isometries
-If $$g$$ is an isometry, then the following holds:
-
-$$
-\begin{align*}
-	g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2) \text{,} \\
-	g(U^\perp) &= g(U)^\perp \text{.}
-\end{align*}
-$$
+If $$g$$ is an isometry, then the following holds: <br>
+(i) $$g(V_1 \oplus V_2) &= g(V_1) \oplus g(V_2)$$; <br>
+(ii) $$g(U^\perp) &= g(U)^\perp$$. 
 
 
 ##### Proposition 4.2 of Clark
@@ -533,4 +528,4 @@ $$
 but this contradicts the result $$det(\sigma) = 1_F$$ we have from [lemma 2](#lemma-2). 
 
 
-And thus we have completed the proof! 
+And thus we have completed the proof. :)
