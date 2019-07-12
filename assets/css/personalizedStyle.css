@@ -34,6 +34,11 @@ li a:hover {
 @fa-linkedin-square: #b3b3b3;
 @fa-facebook-square: #b3b3b3;
 
+#contact {
+  border: 2px solid transparent;
+  background-color: white;
+  width: 100%;
+}
 
 input[type=text], select, textarea {
   width: 100%;
