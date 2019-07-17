@@ -45,6 +45,8 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 | Artist                                  | Date         | Location   |
 |:----------------------------------------|:-------------|:-----------|
+| Kiss                                    | Jul 11, 2019 | London     |
+| The Piano Guys                          | Jun 03, 2017 | London     |
 | Iron Maiden                             | May 27, 2017 | London     |
 | Trivium                                 | Feb 17, 2017 | London     |
 | Green Day                               | Feb 08, 2017 | London     |
@@ -66,11 +68,27 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | Avenged Sevenfold                       | Jan 16, 2015 | Taipei     |
 
 
-### Musical Log
+### Theater Log
 
-| Musical                                 | Date                    |
-|:----------------------------------------|:------------------------|
-|                                         |                         |
+| Musical / Play                                                                                | Date         | Location   |
+|:----------------------------------------------------------------------------------------------|:-------------|:-----------|
+| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 13, 2019 | London     |
+| [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Jul 10, 2019 | London     |
+| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 06, 2019 | London     |
+| [The Book of Mormon](https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical))              | Jun 08, 2017 | London     |
+| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Jun 07, 2017 | London     |
+| [The Lion King](https://en.wikipedia.org/wiki/The_Lion_King_(musical))                        | Jun 06, 2017 | London     |
+| [Aladdin](https://en.wikipedia.org/wiki/Aladdin_(2011_musical))                               | Jun 05, 2017 | London     |
+| [Matilda](https://en.wikipedia.org/wiki/Matilda_the_Musical)                                  | Jun 04, 2017 | London     |
+| [Les Misérables](https://en.wikipedia.org/wiki/Les_Misérables_(musical))                      | Jun 02, 2017 | London     |
+| [Dreamgirls](https://en.wikipedia.org/wiki/Dreamgirls)                                        | Jun 03, 2017 | London     |
+| [The Curious Incident of the Dog in the Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time_(play))                                       | Jun 03, 2017 | London     |
+| [School of Rock](https://en.wikipedia.org/wiki/School_of_Rock_(musical))                      | Feb 22, 2017 | London     |
+| [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Jan 25, 2017 | London     |
+| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Dec 16, 2016 | London     |
+| [Mamma Mia!](https://en.wikipedia.org/wiki/Mamma_Mia!)                                        | Dec 12, 2016 | London     |
+| [Wicked](https://en.wikipedia.org/wiki/Wicked_(musical))                                      | Nov 01, 2016 | London     |
+
 
 
 <br>
