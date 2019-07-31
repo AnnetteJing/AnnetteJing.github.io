@@ -183,7 +183,7 @@ Hence, $$W = W^\perp$$.
 
 ###### Part (ii):
 
-According to [Theorem 6.2 of Clark](#theorem-6.2-of-clark), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta := \{\beta_1, ..., \beta_m\}$$, $$\beta' := \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
+According to [Theorem 6.2 of Clark](#theorem-62-of-clark), there exists totally isotropic subspace $$W'$$ of $$V$$ and bases $$\beta := \{\beta_1, ..., \beta_m\}$$, $$\beta' := \{\beta_1', ..., \beta_m'\}$$ of $$W$$ and $$W'$$, respectively, such that $$W \cap W^\perp = \{0_V\}$$, $$H(\beta_i, \beta_j') = \delta_{i,j} \ \forall i, j = 1, ..., m$$, and $$V = W + W^\perp$$. Clearly $$\gamma := \beta \cup \beta'$$ is a basis for $$V$$.  
 By assumption, we have $$\sigma(x) = x$$ for every $$x \in W$$. Fix any $$y \in W'$$, then for every $$w \in W$$ we have 
 
 $$
