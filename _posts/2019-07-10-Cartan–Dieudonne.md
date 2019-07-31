@@ -91,7 +91,7 @@ $$V$$ is non-degenerate, $$W$$ is a subspace of $$V$$, then <br>
 (ii) $$W^{\perp\perp} = W$$. 
 
 
-- $$x \in V \setminus \{0_V\}$$ **[an]isotropic** if <br>
+- $$x \in V \setminus \{0_V\}$$ is **[an]isotropic** if <br>
 $$Q(x) \equiv H(x, x) = 0_F$$ [$$\neq 0_F$$] <br>
 $$(V, H)$$ is **[an]isotropic** if <br>
 (i) $$V$$ is non-degenerate; <br>
@@ -150,7 +150,7 @@ Let $$(V, H)$$ be a nondegenerate quadratic space of dimension $$n$$. Then, ever
 
 * * *
 
-This is a proof by induction, and the core idea is to prove that the inductive step holds for the following three cases (which are mutually exclusive and collectively exhaustive): 
+This is a proof by induction, and the core idea is to prove that the inductive step holds for the following three cases (which are collectively exhaustive since Case 3 is the complement of Case 1 $$\cup$$ Case 2): 
 - **Case 1:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x = 0_V$$
 - **Case 2:**  $$\exists$$ anisotropic $$x \in V \setminus \{0_V\}$$ such that $$\sigma(x) - x$$ is anisotropic
 - **Case 3:**  $$\forall$$ anisotropic $$x \in V \setminus \{0_V\}$$, $$\sigma(x) - x \neq 0_V$$ and is isotropic

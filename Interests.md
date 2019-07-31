@@ -34,6 +34,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Parkway Drive](https://youtu.be/QmtRMoMWUKE)         | Metalcore, heavy metal       | No         |
 | [Queen](https://youtu.be/hFDcoX7s6rE)                 | Hard rock, glam rock         | No         |
 | [Rammstein](https://youtu.be/NeQM1c-XCDc)             | Hard rock, industrial metal  | No         |
+| [Red Sun Rising](https://youtu.be/0crY95eobHU)        | Alternative rock, hard rock  | No         |
 | [Shinedown](https://youtu.be/OoHGZFyMCHU)             | Hard rock, alt metal         | No         |
 | [Sonata Arctica](https://youtu.be/ehvmYAXXUWs)        | Power metal, symphonic metal | Yes        |
 | [Tenacious D](https://youtu.be/3b1acvZRvV4)           | Comedy rock, acoustic rock   | No         |
@@ -75,6 +76,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 13, 2019 | London     |
 | [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Jul 10, 2019 | London     |
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 06, 2019 | London     |
+| [Mozart, l'opéra rock](https://en.wikipedia.org/wiki/Mozart,_l%27opéra_rock)                  | Oct 11, 2018 | Taipei     |
 | [The Book of Mormon](https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical))              | Jun 08, 2017 | London     |
 | [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Jun 07, 2017 | London     |
 | [The Lion King](https://en.wikipedia.org/wiki/The_Lion_King_(musical))                        | Jun 06, 2017 | London     |
@@ -88,7 +90,6 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Dec 16, 2016 | London     |
 | [Mamma Mia!](https://en.wikipedia.org/wiki/Mamma_Mia!)                                        | Dec 12, 2016 | London     |
 | [Wicked](https://en.wikipedia.org/wiki/Wicked_(musical))                                      | Nov 01, 2016 | London     |
-
 
 
 <br>
