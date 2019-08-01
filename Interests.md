@@ -71,36 +71,45 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 ### Theater Log
 
-| Musical / Play                                                                                | Date         | Location   |
-|:----------------------------------------------------------------------------------------------|:-------------|:-----------|
-| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 13, 2019 | London     |
-| [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Jul 10, 2019 | London     |
-| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Jul 06, 2019 | London     |
-| [Mozart, l'opéra rock](https://en.wikipedia.org/wiki/Mozart,_l%27opéra_rock)                  | Oct 11, 2018 | Taipei     |
-| [The Book of Mormon](https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical))              | Jun 08, 2017 | London     |
-| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Jun 07, 2017 | London     |
-| [The Lion King](https://en.wikipedia.org/wiki/The_Lion_King_(musical))                        | Jun 06, 2017 | London     |
-| [Aladdin](https://en.wikipedia.org/wiki/Aladdin_(2011_musical))                               | Jun 05, 2017 | London     |
-| [Matilda](https://en.wikipedia.org/wiki/Matilda_the_Musical)                                  | Jun 04, 2017 | London     |
-| [Les Misérables](https://en.wikipedia.org/wiki/Les_Misérables_(musical))                      | Jun 02, 2017 | London     |
-| [Dreamgirls](https://en.wikipedia.org/wiki/Dreamgirls)                                        | Jun 03, 2017 | London     |
-| [The Curious Incident of the Dog in the Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time_(play))                                       | Jun 03, 2017 | London     |
-| [School of Rock](https://en.wikipedia.org/wiki/School_of_Rock_(musical))                      | Feb 22, 2017 | London     |
-| [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Jan 25, 2017 | London     |
-| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Dec 16, 2016 | London     |
-| [Mamma Mia!](https://en.wikipedia.org/wiki/Mamma_Mia!)                                        | Dec 12, 2016 | London     |
-| [Wicked](https://en.wikipedia.org/wiki/Wicked_(musical))                                      | Nov 01, 2016 | London     |
+| Theater Show                                                                                  | Type    | Date         | Location |
+|:----------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 13, 2019 | London   |
+| [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Musical | Jul 10, 2019 | London   |
+| [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 06, 2019 | London   |
+| [Mozart, l'opéra rock](https://en.wikipedia.org/wiki/Mozart,_l%27opéra_rock)                  | Musical | Oct 11, 2018 | Taipei   |
+| [Tosca](https://en.wikipedia.org/wiki/Tosca))                                                 | Opera   | Jun 11, 2017 | Oslo     |
+| [The Book of Mormon](https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical))              | Musical | Jun 08, 2017 | London   |
+| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Musical | Jun 07, 2017 | London   |
+| [The Lion King](https://en.wikipedia.org/wiki/The_Lion_King_(musical))                        | Musical | Jun 06, 2017 | London   |
+| [Aladdin](https://en.wikipedia.org/wiki/Aladdin_(2011_musical))                               | Musical | Jun 05, 2017 | London   |
+| [Matilda](https://en.wikipedia.org/wiki/Matilda_the_Musical)                                  | Musical | Jun 04, 2017 | London   |
+| [Les Misérables](https://en.wikipedia.org/wiki/Les_Misérables_(musical))                      | Musical | Jun 02, 2017 | London   |
+| [Dreamgirls](https://en.wikipedia.org/wiki/Dreamgirls)                                        | Musical | Jun 03, 2017 | London   |
+| [The Curious Incident of the Dog in the Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time_(play))                                       | Play    | Jun 03, 2017 | London   |
+| [School of Rock](https://en.wikipedia.org/wiki/School_of_Rock_(musical))                      | Musical | Feb 22, 2017 | London   |
+| [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Musical | Jan 25, 2017 | London   |
+| [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Musical | Dec 16, 2016 | London   |
+| [Mamma Mia!](https://en.wikipedia.org/wiki/Mamma_Mia!)                                        | Musical | Dec 12, 2016 | London   |
+| [Wicked](https://en.wikipedia.org/wiki/Wicked_(musical))                                      | Musical | Nov 01, 2016 | London   |
 
 
 <br>
 
 ## :: Shows ::
 
-| Show                                                  | Genre                        | Type       |
-|:------------------------------------------------------|:-----------------------------|:-----------|
-| Attack on Titan (Shingeki no Kyojin)                  | Action, adventure            | Anime      |
-
-
+| Series                                                | Genre                            | Type       |
+|:------------------------------------------------------|:---------------------------------|:-----------|
+| Altered Carbon                                        | Cyberpunk, dystopia, sci-fi      | TV         |
+| Attack on Titan (Shingeki no Kyojin)                  | Action, adventure                | Anime      |
+| The Big Bang Theory                                   | Sitcom                           | TV         |
+| Dirk Gently's Holistic Detective Agency               | Comic sci-fi, detective          | TV         |
+| Fullmetal Alchemist: Brotherhood                      | Adventure, fantasy, martial arts | Anime      |
+| Hunter x Hunter                                       | Action, adventure                | Anime      |
+| Person of Interest                                    | Crime drama, action, sci-fi      | TV         |
+| Sherlock                                              | Crime drama                      | TV         |
+| Suits                                                 | Legal drama                      | TV         |
+| Supernatural                                          | Drama, dark fantasy              | TV         |
+| White Collar                                          | Police procedural, drama         | TV         |
 
 
 <br>
