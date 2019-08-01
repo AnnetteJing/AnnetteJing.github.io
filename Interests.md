@@ -77,7 +77,8 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Musical | Jul 10, 2019 | London   |
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 06, 2019 | London   |
 | [Mozart, l'opéra rock](https://en.wikipedia.org/wiki/Mozart,_l%27opéra_rock)                  | Musical | Oct 11, 2018 | Taipei   |
-| [Tosca](https://en.wikipedia.org/wiki/Tosca))                                                 | Opera   | Jun 11, 2017 | Oslo     |
+| [Tosca](https://en.wikipedia.org/wiki/Tosca)                                                  | Opera   | Jun 11, 2017 | Oslo     |
+| [Romeo and Juliet](https://en.wikipedia.org/wiki/Romeo_and_Juliet)                            | Play    | Jun 09, 2017 | London   |
 | [The Book of Mormon](https://en.wikipedia.org/wiki/The_Book_of_Mormon_(musical))              | Musical | Jun 08, 2017 | London   |
 | [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Musical | Jun 07, 2017 | London   |
 | [The Lion King](https://en.wikipedia.org/wiki/The_Lion_King_(musical))                        | Musical | Jun 06, 2017 | London   |
