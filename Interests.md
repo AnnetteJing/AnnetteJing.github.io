@@ -46,6 +46,8 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 | Artist                                  | Date         | Location   |
 |:----------------------------------------|:-------------|:-----------|
+| Iron Maiden                             | Sep 10, 2019 | Oakland    |
+| The Raven Age                           | Sep 10, 2019 | Oakland    |
 | Kiss                                    | Jul 11, 2019 | London     |
 | The Piano Guys                          | Jun 03, 2017 | London     |
 | Iron Maiden                             | May 27, 2017 | London     |
@@ -73,6 +75,8 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 | Theater Show                                                                                  | Type    | Date         | Location |
 |:----------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| [Rock of Ages](https://en.wikipedia.org/wiki/Rock_of_Ages_(musical))                          | Musical | Aug 26, 2019 | NYC      |
+| [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Musical | Aug 24, 2019 | NYC      |
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 13, 2019 | London   |
 | [Waitress](https://en.wikipedia.org/wiki/Waitress_(musical))                                  | Musical | Jul 10, 2019 | London   |
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 06, 2019 | London   |
@@ -85,8 +89,8 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Aladdin](https://en.wikipedia.org/wiki/Aladdin_(2011_musical))                               | Musical | Jun 05, 2017 | London   |
 | [Matilda](https://en.wikipedia.org/wiki/Matilda_the_Musical)                                  | Musical | Jun 04, 2017 | London   |
 | [Les Misérables](https://en.wikipedia.org/wiki/Les_Misérables_(musical))                      | Musical | Jun 02, 2017 | London   |
-| [Dreamgirls](https://en.wikipedia.org/wiki/Dreamgirls)                                        | Musical | Jun 03, 2017 | London   |
-| [The Curious Incident of the Dog in the Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time_(play))                                       | Play    | Jun 03, 2017 | London   |
+| [Dreamgirls](https://en.wikipedia.org/wiki/Dreamgirls)                                        | Musical | Jun 01, 2017 | London   |
+| [The Curious Incident of the Dog in the Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time_(play))                                       | Play    | Jun 01, 2017 | London   |
 | [School of Rock](https://en.wikipedia.org/wiki/School_of_Rock_(musical))                      | Musical | Feb 22, 2017 | London   |
 | [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Musical | Jan 25, 2017 | London   |
 | [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Musical | Dec 16, 2016 | London   |
@@ -119,6 +123,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 | Country / Region                        | Type of Stay            |
 |:----------------------------------------|:------------------------|
+| United States                           | Living here             |
 | Taiwan                                  | Lived here              |
 | United Kingdom                          | Lived here              |
 | Belgium                                 | Visited                 |
@@ -131,7 +136,6 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | The Philippines                         | Visited                 |
 | Singapore                               | Visited                 |
 | South Korea                             | Visited                 |
-| United States                           | Visited                 |
 
 ![TravelMap](assets/img/TravelMap.png)
 Made with [mapchart.net](https://mapchart.net/world.html)
