@@ -75,6 +75,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 | Theater Show                                                                                  | Type    | Date         | Location |
 |:----------------------------------------------------------------------------------------------|:--------|:-------------|:---------|
+| [Hamilton](https://en.wikipedia.org/wiki/Hamilton_(musical))                                  | Musical | Sep 22, 2019 | SF       |
 | [Rock of Ages](https://en.wikipedia.org/wiki/Rock_of_Ages_(musical))                          | Musical | Aug 26, 2019 | NYC      |
 | [Phantom of the Opera](https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)) | Musical | Aug 24, 2019 | NYC      |
 | [Jesus Christ Superstar](https://en.wikipedia.org/wiki/Jesus_Christ_Superstar)                | Musical | Jul 13, 2019 | London   |
