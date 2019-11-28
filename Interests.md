@@ -44,31 +44,32 @@ This page is a compilation of my non-work-related interests, browse at your own 
 
 ### Concert Log
 
-| Artist                                  | Date         | Location   |
-|:----------------------------------------|:-------------|:-----------|
-| Iron Maiden                             | Sep 10, 2019 | Oakland    |
-| The Raven Age                           | Sep 10, 2019 | Oakland    |
-| Kiss                                    | Jul 11, 2019 | London     |
-| The Piano Guys                          | Jun 03, 2017 | London     |
-| Iron Maiden                             | May 27, 2017 | London     |
-| Trivium                                 | Feb 17, 2017 | London     |
-| Green Day                               | Feb 08, 2017 | London     |
-| Avenged Sevenfold                       | Jan 22, 2017 | London     |
-| In Flames                               | Jan 22, 2017 | London     |
-| Avenged Sevenfold                       | Jan 21, 2017 | London     |
-| Disturbed                               | Jan 21, 2017 | London     |
-| Alter Bridge                            | Nov 24, 2016 | London     |
-| Volbeat                                 | Nov 24, 2016 | London     |
-| Gojira                                  | Nov 24, 2016 | London     |
-| Sonata Arctica                          | Oct 15, 2016 | London     |
-| Twilight Force                          | Oct 15, 2016 | London     |
-| Power Quest                             | Oct 15, 2016 | London     |
-| Nightwish                               | Apr 16, 2016 | Taipei     |
-| Hammerfall                              | Oct 17, 2015 | Taipei     |
-| Dir en grey                             | Oct 17, 2015 | Taipei     |
-| Dragonforce                             | Sep 12, 2015 | Taipei     |
-| GYZE                                    | Sep 12, 2015 | Taipei     |
-| Avenged Sevenfold                       | Jan 16, 2015 | Taipei     |
+| Artist                                  | Date         | Location       |
+|:----------------------------------------|:-------------|:---------------|
+| Dragonforce                             | Oct 10, 2019 | San Francisco  |
+| Iron Maiden                             | Sep 10, 2019 | Oakland        |
+| The Raven Age                           | Sep 10, 2019 | Oakland        |
+| Kiss                                    | Jul 11, 2019 | London         |
+| The Piano Guys                          | Jun 03, 2017 | London         |
+| Iron Maiden                             | May 27, 2017 | London         |
+| Trivium                                 | Feb 17, 2017 | London         |
+| Green Day                               | Feb 08, 2017 | London         |
+| Avenged Sevenfold                       | Jan 22, 2017 | London         |
+| In Flames                               | Jan 22, 2017 | London         |
+| Avenged Sevenfold                       | Jan 21, 2017 | London         |
+| Disturbed                               | Jan 21, 2017 | London         |
+| Alter Bridge                            | Nov 24, 2016 | London         |
+| Volbeat                                 | Nov 24, 2016 | London         |
+| Gojira                                  | Nov 24, 2016 | London         |
+| Sonata Arctica                          | Oct 15, 2016 | London         |
+| Twilight Force                          | Oct 15, 2016 | London         |
+| Power Quest                             | Oct 15, 2016 | London         |
+| Nightwish                               | Apr 16, 2016 | Taipei         |
+| Hammerfall                              | Oct 17, 2015 | Taipei         |
+| Dir en grey                             | Oct 17, 2015 | Taipei         |
+| Dragonforce                             | Sep 12, 2015 | Taipei         |
+| GYZE                                    | Sep 12, 2015 | Taipei         |
+| Avenged Sevenfold                       | Jan 16, 2015 | Taipei         |
 
 
 ### Theater Log
@@ -97,6 +98,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Kinky Boots](https://en.wikipedia.org/wiki/Kinky_Boots_(musical))                            | Musical | Dec 16, 2016 | London   |
 | [Mamma Mia!](https://en.wikipedia.org/wiki/Mamma_Mia!)                                        | Musical | Dec 12, 2016 | London   |
 | [Wicked](https://en.wikipedia.org/wiki/Wicked_(musical))                                      | Musical | Nov 01, 2016 | London   |
+| [Hedwig and the Angry Inch](https://en.wikipedia.org/wiki/Hedwig_and_the_Angry_Inch_(musical))| Musical | Mar/Apr 2013 | Taipei   |
 
 
 <br>
@@ -110,6 +112,7 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | The Big Bang Theory                                   | Sitcom                           | TV         |
 | Dirk Gently's Holistic Detective Agency               | Comic sci-fi, detective          | TV         |
 | Fullmetal Alchemist: Brotherhood                      | Adventure, fantasy, martial arts | Anime      |
+| The Good Place                                        | Comedy, phylosophical fiction    | TV         |
 | Hunter x Hunter                                       | Action, adventure                | Anime      |
 | Person of Interest                                    | Crime drama, action, sci-fi      | TV         |
 | Sherlock                                              | Crime drama                      | TV         |
