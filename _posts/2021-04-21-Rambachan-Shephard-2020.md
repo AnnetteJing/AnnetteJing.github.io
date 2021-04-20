@@ -1,5 +1,5 @@
 ---
-title: Econometric analysis of potential outcomes time series: instruments, shocks, linearity, and the causal response function
+title: Econometric analysis of potential outcomes time series - instruments, shocks, linearity, and the causal response function
 layout: singlePost
 categories: [blog]
 tags: [dynamic causality, intrumental variables, linearity, potential outcomes, time series, shocks]
