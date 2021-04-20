@@ -5,6 +5,7 @@ categories: [blog]
 tags: [dynamic causality, intrumental variables, linearity, potential outcomes, time series, shocks]
 ---
 
+$$
 \newcommand{\defeq}{\vcentcolon=}
 \newcommand{\eqdef}{=\vcentcolon}
 \newcommand{\bbl}{\Big(}
@@ -75,6 +76,7 @@ tags: [dynamic causality, intrumental variables, linearity, potential outcomes, 
 \newcommand{\Xbb}{\mathbb{X}}
 \newcommand{\Ybb}{\mathbb{Y}}
 \newcommand{\Zbb}{\mathbb{Z}}
+$$
 
 These are personal study notes for the [paper by Rambachan and Shephard (2020)](https://arxiv.org/pdf/1903.01637.pdf).
 
