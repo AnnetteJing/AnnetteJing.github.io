@@ -109,13 +109,15 @@ This page is a compilation of my non-work-related interests, browse at your own 
 |:------------------------------------------------------|:---------------------------------|:-----------|
 | Altered Carbon                                        | Cyberpunk, dystopia, sci-fi      | TV         |
 | Attack on Titan (Shingeki no Kyojin)                  | Action, adventure                | Anime      |
-| The Big Bang Theory                                   | Sitcom                           | TV         |
+| The Big Bang Theory                                   | Comedy                           | TV         |
 | Dirk Gently's Holistic Detective Agency               | Comic sci-fi, detective          | TV         |
+| The Expanse                                           | Sci-fi, drama                    | TV         |
 | Fullmetal Alchemist: Brotherhood                      | Adventure, fantasy, martial arts | Anime      |
 | The Good Place                                        | Comedy, phylosophical fiction    | TV         |
 | Hunter x Hunter                                       | Action, adventure                | Anime      |
 | Person of Interest                                    | Crime drama, action, sci-fi      | TV         |
 | Sherlock                                              | Crime drama                      | TV         |
+| Silicon Valley                                        | Comedy                           | TV         |
 | Suits                                                 | Legal drama                      | TV         |
 | Supernatural                                          | Drama, dark fantasy              | TV         |
 | White Collar                                          | Police procedural, drama         | TV         |
