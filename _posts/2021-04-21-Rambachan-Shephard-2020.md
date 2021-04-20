@@ -5,6 +5,9 @@ categories: [blog]
 tags: [dynamic causality, intrumental variables, linearity, potential outcomes, time series, shocks]
 ---
 
+This post is my personal study notes for the [paper](https://arxiv.org/pdf/1903.01637.pdf) by [Rambachan](https://asheshrambachan.github.io) and [Shephard](https://scholar.harvard.edu/shephard/home) (2020).
+Since it is intended for personal use, I will not specify the meaning of each symbol I use.
+
 $$
 \newcommand{\defeq}{\vcentcolon=}
 \newcommand{\eqdef}{=\vcentcolon}
@@ -77,8 +80,6 @@ $$
 \newcommand{\Ybb}{\mathbb{Y}}
 \newcommand{\Zbb}{\mathbb{Z}}
 $$
-
-These are personal study notes for the [paper by Rambachan and Shephard (2020)](https://arxiv.org/pdf/1903.01637.pdf).
 
 - **Def 1.1** $$W_{1:T}$$ is a _**treatment path**_ if <br>
 $$support(W_t) = \Wcal \subset \Rbb^k$$ for each $$t = 1, ..., T$$ and $$\Wcal$$ is compact. 

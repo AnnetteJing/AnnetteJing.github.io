@@ -5,7 +5,7 @@ categories: [blog]
 tags: [Cartan–Dieudonné, quadratic space]
 ---
 
-This blog will be about one of the most covoluted proofs I have encountered during my undergraduate career: the proof of the [Cartan–Dieudonné Theorem](https://en.wikipedia.org/wiki/Cartan–Dieudonné_theorem) for general quadratic spaces. I will be following [Prof. Peter Clark's](http://math.uga.edu/~pete/) proof in his [notes](http://alpha.math.uga.edu/~pete/quadraticforms.pdf), but add more details that aren't so obvious to first-time readers. A few theorems used are taken from the first chapter of [Algebraic Theory of Quadratic Forms](https://books.google.com.tw/books?id=YvyOLDeOYQgC&pg=PA1&hl=zh-TW&source=gbs_toc_r&cad=4#v=onepage&q&f=false) by [Prof. Tsit Yuen Lam](https://math.berkeley.edu/~lam/). 
+This blog will be about one of the more covoluted proofs I have encountered during my undergraduate career: the proof of the [Cartan–Dieudonné Theorem](https://en.wikipedia.org/wiki/Cartan–Dieudonné_theorem) for general quadratic spaces. I will be following [Prof. Peter Clark's](http://math.uga.edu/~pete/) proof in his [notes](http://alpha.math.uga.edu/~pete/quadraticforms.pdf), but add more details that aren't so obvious to first-time readers. A few theorems used are taken from the first chapter of [Algebraic Theory of Quadratic Forms](https://books.google.com.tw/books?id=YvyOLDeOYQgC&pg=PA1&hl=zh-TW&source=gbs_toc_r&cad=4#v=onepage&q&f=false) by [Prof. Tsit Yuen Lam](https://math.berkeley.edu/~lam/). 
 
 There are two purposes of this post:
 1. Test out using MathJax and Kramdown for my blog
