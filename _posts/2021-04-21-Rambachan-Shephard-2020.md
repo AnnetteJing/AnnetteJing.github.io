@@ -67,31 +67,31 @@ it satisfies the following assumptions
 
 - **E.g. 1 Autoregression** 
 	\begin{align}
-	\begin{pmatrix}
+	\begin{bmatrix}
 	Y_t(w_{1:t}) \\
 	W_t
-	\end{pmatrix}
-	= \begin{pmatrix}
+	\end{bmatrix}
+	= \begin{bmatrix}
 	\mu + \phi Y_{t - 1}(w_{1:t - 1}) + \beta_0 w_t \\
 	\gamma + \theta W_{t - 1} + \delta Y_{t - 1}(W_{1:t - 1})
-	\end{pmatrix} + 
-	\begin{pmatrix}
+	\end{bmatrix} + 
+	\begin{bmatrix}
 	\varepsilon_t \\
 	\eta_t
-	\end{pmatrix}, 
+	\end{bmatrix}, 
 	\quad
-	\begin{pmatrix}
+	\begin{bmatrix}
 	\varepsilon_t \\
 	\eta_t
-	\end{pmatrix}
+	\end{bmatrix}
 	\iid
 	N
 	\bbbl 
 	\0_2,
-	\begin{pmatrix}
+	\begin{bmatrix}
 	\sigma_\varepsilon^2 & \rho \sigma_\varepsilon \sigma_\eta \\
 	\rho \sigma_\varepsilon \sigma_\eta & \sigma_\eta^2
-	\end{pmatrix}
+	\end{bmatrix}
 	\bbbr.
 	\end{align}
 
