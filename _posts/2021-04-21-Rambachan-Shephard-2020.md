@@ -20,11 +20,49 @@ $$support(W_t) = \mathcal{W} \subset \mathbb{R}^k$$ for each $$t = 1, ..., T$$ a
 $$Y_{1:T}(w_{1:T}) = (Y_1(w_{1:T}), ..., Y_T(w_{1:T}))^\intercal$$,
 where $$Y_t(\cdot): \mathcal{W}^T \to \mathbb{R}$$ are real-valued functions. 
 
+$$
+\newcommand{\indep}{\perp\!\!\!\!\perp}
+$$
+
 - **Def 2** $$\pmb{(Y_{1:T}, W_{1:T})}$$ is a _**potential outcome time series**_ if 
-it satisfies the following assumptions <br>
-	- A1. Non-anticipating potential outcomes:  <br>
-	For each $$t = 1, ..., T$$, $$Y_t(w_{1:t}, w_{t + 1:T}) \stackrel{as}{=} Y_t(w_{1:t}, w_{t + 1:T}')$$ for all $$w_{1:T} \in \mathcal{W}^T$$, $$w_{t + 1:T}') \in \mathcal{W}^{T - t}$$. <br>
+it satisfies the following assumptions
+	- **A1. Non-anticipating potential outcomes:**
+	For each $$t = 1, ..., T$$,
+	\begin{align}
+	Y_t(w_{1:t}, w_{t + 1:T}) 
+	\stackrel{as}{=} Y_t(w_{1:t}, w_{t + 1:T}')
+	\quad \forall w_{1:T} \in \mathcal{W}^T, \ w_{t + 1:T}') \in \mathcal{W}^{T - t}.
+	\end{align}
 	Intuitively, this means future treatment assignments $$W_{t + 1:T}$$ shouldn't affect current and past outcomes $$Y_{1:t}(W_{1:T})$$.  <br>
 	With this assumption, we can write $$Y_t(w_{1:T}) \stackrel{as}{=} Y_t(w_{1:t})$$. 
-	- A2. Outcome generation & time-$$t$$ information: <br>
-	The observed sequence of outcomes is $$Y_{1:T} = Y_{1:T}(W_{1:T}) = (Y_1(W_{1:T}), Y_2(W_{1:T}), ..., Y_T(W_{1:T}))^\intercal = (Y_1(W_1), Y_2(W_{1:2}), ..., Y_T(W_{1:T}))^\intercal$$.
+	- **A2. Outcome generation & time-$$t$$ information:** 
+	The observed sequence of outcomes is 
+	\begin{align}
+	Y_{1:T} 
+	= Y_{1:T}(W_{1:T}) 
+	= (Y_1(W_{1:T}), Y_2(W_{1:T}), ..., Y_T(W_{1:T}))^\intercal 
+	= (Y_1(W_1), Y_2(W_{1:2}), ..., Y_T(W_{1:T}))^\intercal.
+	\end{align}
+	Since we observe $$(Y_{1:t}, W_{1:t})$$ at time $$t$$, we equip the process with its natural filtration: $$\mathcal{F}_t = \sigma(Y_{1:t}, W_{1:t})$$. 
+	- **A3. Non-anticipating treatment paths:** 
+	For each $$t = 1, ..., T$$, 
+	\begin{align}
+	(\{Y_{t:T}(W_{1:t - 1}, w_{t:T}) | w_{t:T} \in \mathcal{W}^{T - t + 1}\} \indep W_t) | \mathcal{F}_{t - 1}
+	\end{align}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
