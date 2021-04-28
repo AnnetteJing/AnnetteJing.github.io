@@ -8,80 +8,23 @@ tags: [dynamic causality, intrumental variables, linearity, potential outcomes, 
 This post is my personal study notes for the [paper](https://arxiv.org/pdf/1903.01637.pdf) by [Rambachan](https://asheshrambachan.github.io) and [Shephard](https://scholar.harvard.edu/shephard/home) (2020).
 Since it is intended for personal use, I will not specify the meaning of each symbol I use.
 
-$$
-\newcommand{\defeq}{\vcentcolon=}
-\newcommand{\eqdef}{=\vcentcolon}
-\newcommand{\bbl}{\Big(}
-\newcommand{\bbr}{\Big)}
-\newcommand{\bsbl}{\Big[}
-\newcommand{\bsbr}{\Big]}
-\newcommand{\argmin}{\mathop{\arg\min}}
-\newcommand{\argmax}{\mathop{\arg\max}}
-\newcommand{\aseq}{\stackrel{as}{=}}
-\newcommand{\asto}{\xrightarrow[]{as}}
-\newcommand{\pto}{\overset{p}{\to}}
-\newcommand{\iid}{\stackrel{iid}{\sim}}
-\newcommand{\indsim}{\stackrel{indep}{\sim}}
-\newcommand{\indep}{\raisebox{0.05em}{\rotatebox[origin=c]{90}{$\models$}}}
-\newcommand{\deq}{\stackrel{d}{=}}
-\newcommand{\convw}{\stackrel{w}{\rightarrow}}
-\newcommand{\1}{\mathbf{1}}
-\newcommand{\0}{\mathbf{0}}
-\newcommand{\Acal}{\mathcal{A}}
-\newcommand{\Bcal}{\mathcal{B}}
-\newcommand{\Ccal}{\mathcal{C}}
-\newcommand{\Dcal}{\mathcal{D}}
-\newcommand{\Ecal}{\mathcal{E}}
-\newcommand{\Fcal}{\mathcal{F}}
-\newcommand{\Gcal}{\mathcal{G}}
-\newcommand{\Hcal}{\mathcal{H}}
-\newcommand{\Ical}{\mathcal{I}}
-\newcommand{\Jcal}{\mathcal{J}}
-\newcommand{\Kcal}{\mathcal{K}}
-\newcommand{\Lcal}{\mathcal{L}}
-\newcommand{\Mcal}{\mathcal{M}}
-\newcommand{\Ncal}{\mathcal{N}}
-\newcommand{\Ocal}{\mathcal{O}}
-\newcommand{\Pcal}{\mathcal{P}}
-\newcommand{\Qcal}{\mathcal{Q}}
-\newcommand{\Rcal}{\mathcal{R}}
-\newcommand{\Scal}{\mathcal{S}}
-\newcommand{\Tcal}{\mathcal{T}}
-\newcommand{\Ucal}{\mathcal{U}}
-\newcommand{\Vcal}{\mathcal{V}}
-\newcommand{\Wcal}{\mathcal{W}}
-\newcommand{\Xcal}{\mathcal{X}}
-\newcommand{\Ycal}{\mathcal{Y}}
-\newcommand{\Zcal}{\mathcal{Z}}
-\newcommand{\Abb}{\mathbb{A}}
-\newcommand{\Bmbb}{\mathbb{B}}
-\newcommand{\Cbb}{\mathbb{C}}
-\newcommand{\Dbb}{\mathbb{D}}
-\newcommand{\Ebb}{\mathbb{E}}
-\newcommand{\Fbb}{\mathbb{F}}
-\newcommand{\Gbb}{\mathbb{G}}
-\newcommand{\Hbb}{\mathbb{H}}
-\newcommand{\Ibb}{\mathbb{I}}
-\newcommand{\Jbb}{\mathbb{J}}
-\newcommand{\Kbb}{\mathbb{K}}
-\newcommand{\Lbb}{\mathbb{L}}
-\newcommand{\Mbb}{\mathbb{M}}
-\newcommand{\Nbb}{\mathbb{N}}
-\newcommand{\Obb}{\mathbb{O}}
-\newcommand{\Pbb}{\mathbb{P}}
-\newcommand{\Qbb}{\mathbb{Q}}
-\newcommand{\Rbb}{\mathbb{R}}
-\newcommand{\Sbb}{\mathbb{S}}
-\newcommand{\Tbb}{\mathbb{T}}
-\newcommand{\Ubb}{\mathbb{U}}
-\newcommand{\Vbb}{\mathbb{V}}
-\newcommand{\Wbb}{\mathbb{W}}
-\newcommand{\Xbb}{\mathbb{X}}
-\newcommand{\Ybb}{\mathbb{Y}}
-\newcommand{\Zbb}{\mathbb{Z}}
-$$
 
-- **Def 1.1** $$W_{1:T}$$ is a _**treatment path**_ if <br>
-$$support(W_t) = \Wcal \subset \Rbb^k$$ for each $$t = 1, ..., T$$ and $$\Wcal$$ is compact. 
+### Potential outcome time series
 
+#### Formal definition
 
+- **Def 1.1**  $$W_{1:T}$$ is a _**treatment path**_ if <br>
+$$support(W_t) = \mathcal{W} \subset \mathbb{R}^k$$ for each $$t = 1, ..., T$$ and $$\mathcal{W}$$ is compact. 
+
+- **Def 1.2**  The _**potential outcome path**_ for $$\pmb{w_{1:T} \in \mathcal{W}^T}$$ is <br>
+$$Y_{1:T}(w_{1:T}) = (Y_1(w_{1:T}), ..., Y_T(w_{1:T}))^\intercal$$,
+where $$Y_t(\cdot): \mathcal{W}^T \to \mathbb{R}$$ are real-valued functions. 
+
+- **Def 2** $$\pmb{(Y_{1:T}, W_{1:T})}$$ is a _**potential outcome time series**_ if 
+it satisfies the following assumptions <br>
+	- A1. Non-anticipating potential outcomes:  <br>
+	For each $$t = 1, ..., T$$, $$Y_t(w_{1:t}, w_{t + 1:T}) \stackrel{as}{=} Y_t(w_{1:t}, w_{t + 1:T}')$$ for all $$w_{1:T} \in \mathcal{W}^T$$, $$w_{t + 1:T}') \in \mathcal{W}^{T - t}$$. <br>
+	Intuitively, this means future treatment assignments $$W_{t + 1:T}$$ shouldn't affect current and past outcomes $$Y_{1:t}(W_{1:T})$$.  <br>
+	With this assumption, we can write $$Y_t(w_{1:T}) \stackrel{as}{=} Y_t(w_{1:t})$$. 
+	- A2. Outcome generation & time-$$t$$ information: <br>
+	The observed sequence of outcomes is $$Y_{1:T} = Y_{1:T}(W_{1:T}) = (Y_1(W_{1:T}), Y_2(W_{1:T}), ..., Y_T(W_{1:T}))^\intercal = (Y_1(W_1), Y_2(W_{1:2}), ..., Y_T(W_{1:T}))^\intercal$$.
