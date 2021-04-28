@@ -67,7 +67,7 @@ it satisfies the following assumptions
 
 	$$
 	\begin{align}
-	&(\\{Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1}\\} \indep W_t) | \mathcal{F}_{t - 1}
+	&(\text{{} Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1} \text{}} \indep W_t) | \mathcal{F}_{t - 1}
 	\text{ and } \\
 	&(W_{t + 1:T} \indep W_t) | \mathcal{F}_{t - 1}.
 	\end{align}
@@ -75,8 +75,7 @@ it satisfies the following assumptions
 
 	This says that the current treatment $$W_t$$ does not depend on future potential treatments and future treatment assignments. 
 
-- **E.g. 1 Autoregression** 
-
+- **E.g. 1 Autoregression** <br>
   	$$
 	\begin{align}
 	\begin{pmatrix}
