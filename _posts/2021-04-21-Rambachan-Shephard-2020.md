@@ -63,6 +63,8 @@ it satisfies the following assumptions
 	(W_{t + 1:T} \indep W_t) | \mathcal{F}_{t - 1}.
 	\end{align}
 	This says that the current treatment $$W_t$$ does not depend on future potential treatments and future treatment assignments. 
+-->
+
 - **E.g. 1 Autoregression** 
 	\begin{align}
 	\begin{pmatrix}
@@ -92,7 +94,6 @@ it satisfies the following assumptions
 	\end{pmatrix}
 	\bbbr.
 	\end{align}
--->
 
 ##### Special cases
 
