@@ -33,24 +33,19 @@ $$
 
 - **Def 2** $$\pmb{(Y_{1:T}, W_{1:T})}$$ is a _**potential outcome time series**_ if 
 it satisfies the following assumptions
-
 	- **A1. Non-anticipating potential outcomes:**
-	For each $$t = 1, ..., T$$,
-
+	For each $$t = 1, ..., T$$, <br>
 	$$
 	\begin{align}
 	Y_t(w_{1:t}, w_{t + 1:T}) 
 	\stackrel{as}{=} Y_t(w_{1:t}, w_{t + 1:T}')
 	\quad \forall w_{1:T} \in \mathcal{W}^T, \ w_{t + 1:T}') \in \mathcal{W}^{T - t}.
 	\end{align}
-	$$
-
+	$$ <br>
 	Intuitively, this means future treatment assignments $$W_{t + 1:T}$$ shouldn't affect current and past outcomes $$Y_{1:t}(W_{1:T})$$.  <br>
 	With this assumption, we can write $$Y_t(w_{1:T}) \stackrel{as}{=} Y_t(w_{1:t})$$. 
-
 	- **A2. Outcome generation & time-$$t$$ information:** 
-	The observed sequence of outcomes is
-
+	The observed sequence of outcomes is <br>
 	$$
 	\begin{align}
 	Y_{1:T} 
@@ -58,21 +53,21 @@ it satisfies the following assumptions
 	= (Y_1(W_{1:T}), Y_2(W_{1:T}), ..., Y_T(W_{1:T}))^\intercal 
 	= (Y_1(W_1), Y_2(W_{1:2}), ..., Y_T(W_{1:T}))^\intercal.
 	\end{align}
-	$$
-
+	$$ <br>
 	Since we observe $$(Y_{1:t}, W_{1:t})$$ at time $$t$$, we equip the process with its natural filtration: $$\mathcal{F}_t = \sigma(Y_{1:t}, W_{1:t})$$. 
-
 	- **A3. Non-anticipating treatment paths:** 
-	For each $$t = 1, ..., T$$,
-
+	For each $$t = 1, ..., T$$, <br>
 	$$
 	\begin{align}
-	&(\text{{} Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1} \text{}} \indep W_t) | \mathcal{F}_{t - 1}
-	\text{ and } \\
-	&(W_{t + 1:T} \indep W_t) | \mathcal{F}_{t - 1}.
+	( \\{ Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1} \\} \indep W_t) | \mathcal{F}_{t - 1}
 	\end{align}
+	$$ <br>
+	and <br>
 	$$
-
+	\begin{align}
+	(W_{t + 1:T} \indep W_t) | \mathcal{F}_{t - 1}.
+	\end{align}
+	$$ <br>
 	This says that the current treatment $$W_t$$ does not depend on future potential treatments and future treatment assignments. 
 
 - **E.g. 1 Autoregression** <br>
@@ -105,7 +100,7 @@ it satisfies the following assumptions
 	\end{pmatrix}
 	\bbbr.
 	\end{align} 
-	$$
+	$$ <br>
 
 ##### Special cases
 
