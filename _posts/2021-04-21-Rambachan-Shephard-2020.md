@@ -21,6 +21,7 @@ $$Y_{1:T}(w_{1:T}) = (Y_1(w_{1:T}), ..., Y_T(w_{1:T}))^\intercal$$,
 where $$Y_t(\cdot): \mathcal{W}^T \to \mathbb{R}$$ are real-valued functions. 
 
 $$
+\usepackage{amsmath}
 \newcommand{\indep}{\perp\!\!\!\!\perp}
 \newcommand{\iid}{\stackrel{iid}{\sim}}
 \newcommand{\bbl}{\Big(}
@@ -88,7 +89,8 @@ it satisfies the following assumptions
 	\begin{pmatrix}
 	\sigma_\varepsilon^2 & \rho \sigma_\varepsilon \sigma_\eta \\
 	\rho \sigma_\varepsilon \sigma_\eta & \sigma_\eta^2
-	\end{pmatrix}.
+	\end{pmatrix}
+	\bbbr.
 	\end{align}
 
 
