@@ -47,8 +47,9 @@ it satisfies the following assumptions
 	- **A3. Non-anticipating treatment paths:** 
 	For each $$t = 1, ..., T$$, 
 	\begin{align}
-	(\{Y_{t:T}(W_{1:t - 1}, w_{t:T}) | w_{t:T} \in \mathcal{W}^{T - t + 1}\} \indep W_t) | \mathcal{F}_{t - 1}
+	(\\{Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1}\\} \indep W_t) | \mathcal{F}_{t - 1}
 	\end{align}
+	This
 
 
 
