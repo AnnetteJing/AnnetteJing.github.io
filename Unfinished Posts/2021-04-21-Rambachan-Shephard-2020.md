@@ -30,7 +30,6 @@ $$
 \newcommand{\0}{\mathbf{0}}
 \newcommand{\1}{\mathbf{1}}
 $$
-
 - **Def 2** $$\pmb{(Y_{1:T}, W_{1:T})}$$ is a _**potential outcome time series**_ if 
 it satisfies the following assumptions
 	- **A1. Non-anticipating potential outcomes:**
@@ -59,7 +58,7 @@ it satisfies the following assumptions
 	For each $$t = 1, ..., T$$, <br>
 	$$
 	\begin{align}
-	( \{ Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1} \} \indep W_t) | \mathcal{F}_{t - 1}
+	\bbl \{ Y_{t:T}(W_{1:t - 1}, w_{t:T}) \equiv (Y_t(W_{1:t - 1}, w_t), Y_{t + 1}(W_{1:t - 1}, w_{t:t + 1}), ..., Y_T(W_{1:t - 1}, w_{t:T})) | w_{t:T} \in \mathcal{W}^{T - t + 1} \} \indep W_t \bbr \Big| \mathcal{F}_{t - 1}
 	\end{align}
 	$$ <br>
 	and $$ (W_{t + 1:T} \indep W_t) | \mathcal{F}_{t - 1}$$. <br>
