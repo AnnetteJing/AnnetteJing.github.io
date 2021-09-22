@@ -17,7 +17,6 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | [Animenz](https://youtu.be/sEQf5lcnj_o)               | Anime pianist                | No         |
 | [Avenged Sevenfold](https://youtu.be/KVjBCT2Lc94)     | Heavy metal, hard rock       | Yes        |
 | [Blue Stahli](https://youtu.be/WeeivC7ZtHk)           | Electronic rock              | No         |
-| [Caravan Palace](https://youtu.be/UbQgXeY_zi4)        | Electronic, jazz             | No         |
 | [Disturbed](https://youtu.be/_LypjOTTH6E)             | Heavy metal, hard rock       | Yes        |
 | [Fall Out Boy](https://youtu.be/5hDZbroaQDc)          | Pop punk, pop rock           | No         |
 | [Franz Ferdinand](https://youtu.be/Ooq23i-QGBM)       | Indie rock, dance punk       | No         |
@@ -110,11 +109,14 @@ This page is a compilation of my non-work-related interests, browse at your own 
 | Altered Carbon                                        | Cyberpunk, dystopia, sci-fi      | TV         |
 | Attack on Titan (Shingeki no Kyojin)                  | Action, adventure                | Anime      |
 | The Big Bang Theory                                   | Comedy                           | TV         |
+| Castlevania                                           | Drama, dark fantasy, action      | TV         |
 | Dirk Gently's Holistic Detective Agency               | Comic sci-fi, detective          | TV         |
 | The Expanse                                           | Sci-fi, drama                    | TV         |
 | Fullmetal Alchemist: Brotherhood                      | Adventure, fantasy, martial arts | Anime      |
 | The Good Place                                        | Comedy, phylosophical fiction    | TV         |
 | Hunter x Hunter                                       | Action, adventure                | Anime      |
+| One Punch Man                                         | Action, gag comedy, superhero    | Anime      |
+| Parasyte: The Maxim                                   | Body horror, thriller, sci-fi    | Anime      |
 | Person of Interest                                    | Crime drama, action, sci-fi      | TV         |
 | Sherlock                                              | Crime drama                      | TV         |
 | Silicon Valley                                        | Comedy                           | TV         |
